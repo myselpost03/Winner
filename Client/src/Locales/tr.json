@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "Yükleniyor..."
+  },
+
+  "Error": {
+    "error": "Bir hata oluştu"
+  },
+
+  "Profile": {
+    "editProfile": "Profili Düzenle",
+    "user": "Kullanıcı",
+    "about": "Hakkında",
+    "aboutDesc": "Kendin hakkında insanlara anlat:)",
+    "education": "Eğitim",
+    "location": "Konum",
+    "gender": "Cinsiyet",
+    "feedback": "Geribildirim",
+    "supporters": "destekçiler"
+  },
+
+  "Search": {
+    "placeholder": "MySelpost'ta Ara..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Bildirim",
+    "notificationText": "selpost'unu ateşledi."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Selpost Oluştur",
+    "selfieRecognizable": "Selfie tanındı!",
+    "selfieNotRecognizable": "Selfieniz işleniyor...",
+    "selfieCategory": "Selfie kategorisi veya türü",
+    "selfieSecretMsg": "Gizli mesajınızı yazın..",
+    "receiver": "Gizli mesajını göstermek istediğiniz kullanıcı adı"
+  },
+
+  "Selpost": {
+    "none": "Hiçbiri",
+    "category": "{{category}}",
+    "secretMsg": "Gizli Mesaj",
+    "fires": "Ateşler"
+  },
+
+  "Comment": {
+    "comments": "Yorumlar",
+    "placeholder": "Bir yorum yaz...",
+    "button": "Yorum"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Cevap almak için ilk 2 mesajınızı gönderin",
+    "placeholder": "Mesajınızı buraya yazın...",
+    "blocked": "Bu kullanıcı tarafından engellendiniz."
+  },
+
+  "CreateGuess": {
+    "hint": "Başlıkla ilgili herhangi bir ipucu girin",
+    "done": "Tamam",
+    "popupMessage": "Başarıyla oluşturuldu!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Şimdi Güncelle!",
+    "firstMessage": "Uygulama düzgün çalışmayabilir,",
+    "secondMessage": "Lütfen tarayıcınızı güncelleyin!",
+    "update": "Güncelle"
+  },
+
+  "GuessCard": {
+    "shareText": "Selfie'lerinizi gizli bir mesajla paylaşın!",
+    "placeholder": "Selfie başlığını tahmin edin...",
+    "finishedMsg": "Yeterli Sikke Yok!"
+  },
+
+  "GuessCards": {
+    "title": "Tahmin Etmek"
+  },
+
+  "AnswerPopup": {
+    "answer": "Cevap",
+    "close": "Kapat"
+  },
+
+  "Collection": {
+    "title": "Selpost Koleksiyonu"
+  },
+
+  "EditProfile": {
+    "title": "Profili Düzenle",
+    "changePic": "Profil resmini değiştir",
+    "namePlaceholder": "Ad",
+    "genderPlaceholder": "Cinsiyet",
+    "emailPlaceholder": "E-posta Adresi (Özel)",
+    "locationPlaceholder": "Konum (isteğe bağlı)",
+    "educationPlaceholder": "Eğitim (isteğe bağlı)",
+    "aboutPlaceholder": "Kendiniz hakkında yazın",
+    "save": "Kaydet",
+    "updated": "Profil başarıyla güncellendi!"
+  },
+
+  "HintPopup": {
+    "close": "Kapat"
+  },
+
+  "PassedPopup": {
+    "congrats": "Tebrikler!",
+    "firstMsg": "Kazandın",
+    "coins": "sikke",
+    "keep": "Harika işe devam et!",
+    "continue": "Devam Et"
+  },
+
+  "BlockPopup": {
+    "block": "Bu kullanıcıyı başarıyla engellediniz",
+    "ok": "Tamam"
+  },
+
+  "Feedback": {
+    "feedback": "Geri Bildirim Formu",
+    "namePlaceholder": "Adınız",
+    "emailPlaceholder": "E-posta Adresiniz",
+    "message": "Mesajınız",
+    "submit": "Gönder",
+    "toast": "Geri bildiriminiz için teşekkür ederiz!",
+    "header": "Geri Bildirim"
+  },
+
+  "DeleteAccount": {
+    "header": "Hesabı Sil",
+    "confirmText": "Hesap Silme İşlemini Onayla",
+    "deleteText": "Gidişinizi üzülerek görüyoruz. Hesabınız silindiğinde, profiliniz, kendi gönderileriniz ve mesajlarınız da dahil olmak üzere tüm içeriğiniz kalıcı olarak silinecektir.",
+    "confirmFirstText": "Silme işlemini onaylamak için aşağıdaki",
+    "confirmLastText": "yazısını girin:",
+    "confirmBtn": "Silme İşlemini Onayla",
+    "cancel": "İptal",
+    "toast": "Hesabınız başarıyla silindi!"
+  },
+
+  "Settings": {
+    "settings": "Ayarlar",
+    "terms": "Hizmet Şartları",
+    "privacy": "Gizlilik Politikası",
+    "about": "Hakkında",
+    "deleteAccount": "Hesabı Sil"
+  },
+  "Sod": {
+    "sod": "Günün Selfiesi",
+    "congrats": "TEBRİKLER"
+  },
+  "BlockHeader": {
+    "block": "Blok"
+    }
+}

@@ -1,0 +1,571 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #3766f5;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #a8a4a4;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+$pink: #ff0163;
+
+//! Font Families
+$gabriela: "gabriela";
+$poppins: "poppins";
+$averia: "averia serif libre";
+
+//! SMARTPHONES
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .selpost-container-desktop {
+    display: none;
+  }
+
+  .others-desktop {
+    display: none;
+  }
+
+  .selpost-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0.25rem;
+    background-color: #ffffff;
+    width: 97.8%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .selpost-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .selpost-header .header-first-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0.1rem 0.2rem;
+    border-bottom: 1px solid $light-blue;
+  }
+
+  .selpost-header .header-first-part > * {
+    flex: 1;
+  }
+
+  img#mobile-profile-pic {
+    width: 0.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 3px solid #e6e9ee;
+    margin: 0.5rem;
+  }
+
+  .header-first-part strong {
+    align-self: center;
+    width: 6rem;
+    max-width: 6rem;
+    background-color: $pink;
+    color: $white;
+    padding: 0.4rem;
+    font-family: $poppins, serif;
+    text-align: center;
+  }
+
+  .selpost-header .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.3rem;
+    justify-content: flex-end;
+  }
+
+  .icons img {
+    width: 2.3rem;
+    height: 2.3rem;
+    align-self: center;
+    border-radius: 0;
+    border: none;
+    padding: 0.1rem;
+  }
+
+  .icons img.secret {
+    position: relative;
+    opacity: 1;
+  }
+
+  .icons img.no-secret {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .icons img.lock {
+    position: absolute;
+  }
+
+  .icons img.no-lock {
+    display: none;
+    cursor: not-allowed;
+  }
+
+  .icons .more-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    align-self: center;
+    margin: 0 0 0 0.3rem;
+  }
+
+  .selpost-container .selpost-image {
+    width: 100%;
+    height: 20rem;
+    background-color: $light-blue;
+  }
+
+  .selpost-container .selpost-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+  }
+
+  .selpost-container .audio-message {
+    border-bottom: 1px solid $grey;
+  }
+
+  .selpost-container .audio-message audio {
+    width: 100%;
+    border: 1px solid $grey;
+    margin: 0.3rem 0 0 0;
+  }
+
+  .selpost-container .others {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .others .fire-and-water {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .others .fire-and-water .fire-icon-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fire-icon-container strong {
+    margin: 0.3rem;
+    font-family: "poppins", serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 1.3rem;
+    white-space: nowrap;
+  }
+
+  .others .fire-and-water .fire-icon-container .fire-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+    color: $royal-blue;
+  }
+
+  .others .fire-and-water .fire-icon-container .fired-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+    color: #fc575e;
+    background-image: radial-gradient(
+      farthest-corner at 10px 0,
+      #d43300 0%,
+      #ef5a00 95%
+    );
+    filter: drop-shadow(0 0 0.2px #fc575e);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated {
+    animation: bounce 0.5s;
+  }
+
+  .others .dollar-and-comment .comment-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 8rem;
+    margin-top: 0.2rem;
+    color: $royal-blue;
+    background-color: $white;
+  }
+
+  .others .dollar-and-comment .dollar-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 0.2rem;
+    color: $royal-blue;
+    background-color: $white;
+  }
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .popup-content {
+    font-family: $gabriela, serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h2.msg-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: $poppins, serif;
+    color: #fff;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .close-icon {
+    margin: 0 0 0 77vw;
+    color: $black;
+    cursor: pointer;
+  }
+
+  .play-btn {
+    background-color: $royal-blue;
+    color: $white;
+    width: 1.5rem;
+    height: 1.2rem;
+    padding: 0.1rem;
+    margin: 1%;
+  }
+
+  .duration {
+    font-family: $poppins, serif;
+  }
+
+  .play-btn-disabled {
+    background-color: #6079c4;
+    color: $white;
+    width: 1.5rem;
+    height: 1.2rem;
+    padding: 0.1rem;
+    margin: 1%;
+  }
+}
+
+//! Desktops
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .selpost-container {
+    display: none;
+  }
+
+  .selpost-container-desktop {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 0 2rem;
+    background-color: #f5f5f5;
+    width: 30rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .selpost-container-desktop .selpost-header-desktop {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $light-blue;
+    margin: 0 0 0.1rem 0;
+    width: 30rem;
+    background-color: $white;
+  }
+
+  .selpost-header-desktop img {
+    width: 3rem;
+    height: 2.5rem;
+    margin: 0.4rem 0 0.1rem 0.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid #e6e9ee;
+    object-fit: cover;
+  }
+
+  .selpost-header-desktop strong {
+    color: $white;
+    background-color: $pink;
+    align-self: center;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    font-family: $poppins, serif;
+    margin: 0.3rem 0 0.2rem 0.9rem;
+    width: 8rem;
+    max-width: 8rem;
+    text-align: center;
+  }
+
+  .selpost-header-desktop .icons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0.5rem 0 0 13rem;
+  }
+
+  .icons img {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .icons img.secret {
+    position: relative;
+    opacity: 1;
+  }
+
+  .icons img.no-secret {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .icons img.lock {
+    position: absolute;
+    margin: 0.8vh 0 0 38.5px;
+  }
+
+  .icons img.no-lock {
+    display: none;
+    cursor: not-allowed;
+  }
+
+  .icons .more-icon {
+    margin: 0.6rem 0 0 1rem;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .selpost-container-desktop .selpost-image-desktop {
+    background-color: #f5f5f5;
+    width: 30rem;
+  }
+
+  .selpost-container-desktop .selpost-image-desktop img {
+    width: 30rem;
+    //  height: 466px;
+    max-height: 466px;
+    object-fit: cover;
+    padding: 0.2rem;
+  }
+
+  .selpost-container-desktop .audio-msg audio {
+    border: 1px solid $grey;
+    margin: 0.2rem;
+  }
+  .audio-msg {
+    width: 30rem;
+  }
+
+  .play-btn {
+    background-color: $royal-blue;
+    color: $white;
+    width: 1.5rem;
+    height: 1.2rem;
+    padding: 0.1rem;
+    margin: 1%;
+  }
+
+  .play-btn-disabled {
+    background-color: #6079c4;
+    color: $white;
+    width: 1.5rem;
+    height: 1.2rem;
+    padding: 0.1rem;
+    margin: 1%;
+  }
+
+  .others-desktop {
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    margin: 0.3rem 0 1rem 2rem;
+    width: 30rem;
+    background-color: $white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .others-desktop .fire-icon {
+    width: 2rem;
+    height: 2rem;
+    color: $royal-blue;
+    background-color: $white;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .others-desktop .fired-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0.3rem;
+    color: #fc575e;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+
+    filter: drop-shadow(0 0 0.2px #fc575e);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated {
+    animation: bounce 0.5s;
+  }
+
+  .others-desktop .fill-like-icon {
+    width: 2rem;
+    height: 2rem;
+    color: $royal-blue;
+
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .others-desktop strong {
+    font-family: $poppins, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.3rem;
+    white-space: nowrap;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .others-desktop .dislike-icon {
+    width: 2rem;
+    height: 2rem;
+    color: $royal-blue;
+    background-color: $white;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .others-desktop .comment-and-dollar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 9%;
+  }
+
+  .others-desktop .comment-and-dollar .comment-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 18.5rem;
+    color: $royal-blue;
+    background-color: $white;
+    cursor: pointer;
+  }
+
+  .others-desktop .comment-and-dollar .dollar-icon {
+    width: 2rem;
+    height: 2rem;
+    color: $royal-blue;
+    background-color: $white;
+    cursor: pointer;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .popup-content {
+    font-family: $gabriela, serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h2.msg-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: $poppins, serif;
+    color: #fff;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .close-icon {
+    margin: 0 0 0 330px;
+    color: $black;
+    cursor: pointer;
+  }
+
+  .duration {
+    font-family: $poppins, serif;
+  }
+}

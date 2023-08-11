@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "로딩 중..."
+  },
+
+  "Error": {
+    "error": "오류가 발생했습니다"
+  },
+
+  "Profile": {
+    "editProfile": "프로필 편집",
+    "user": "사용자",
+    "about": "소개",
+    "aboutDesc": "자기 소개를 해주세요:)",
+    "education": "학력",
+    "location": "위치",
+    "gender": "성별",
+    "feedback": "피드백",
+    "supporters": "지지자"
+  },
+
+  "Search": {
+    "placeholder": "MySelpost 검색..."
+  },
+
+  "Notification": {
+    "notificationTitle": "알림",
+    "notificationText": "님이 셀포스트를 활성화했습니다."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "셀포스트 만들기",
+    "selfieRecognizable": "셀피 인식됨!",
+    "selfieNotRecognizable": "셀피 처리 중...",
+    "selfieCategory": "셀피 카테고리 또는 유형",
+    "selfieSecretMsg": "비밀 메시지를 입력하세요..",
+    "receiver": "비밀 메시지를 보여줄 사용자 이름"
+  },
+
+  "Selpost": {
+    "none": "없음",
+    "category": "{{category}}",
+    "secretMsg": "비밀 메시지",
+    "fires": "발화"
+  },
+
+  "Comment": {
+    "comments": "댓글",
+    "placeholder": "댓글 작성...",
+    "button": "댓글"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "답장 받으려면 처음 2개의 메시지를 보내주세요",
+    "placeholder": "여기에 메시지 입력...",
+    "blocked": "이 사용자에 의해 차단되었습니다."
+  },
+
+  "CreateGuess": {
+    "hint": "제목과 관련된 단서를 입력하세요",
+    "done": "완료",
+    "popupMessage": "성공적으로 생성되었습니다!"
+  },
+
+  "BrowserPopup": {
+    "heading": "지금 업데이트하세요!",
+    "firstMessage": "애플리케이션이 정상적으로 작동하지 않을 수 있습니다",
+    "secondMessage": "브라우저를 업데이트하세요!",
+    "update": "업데이트"
+  },
+
+  "GuessCard": {
+    "shareText": "셀피와 비밀 메시지를 함께 공유하세요!",
+    "placeholder": "셀피 제목을 추측하세요...",
+    "finishedMsg": "충분한 코인이 없습니다!"
+  },
+
+  "GuessCards": {
+    "title": "추측하다"
+  },
+
+  "AnswerPopup": {
+    "answer": "답변",
+    "close": "닫기"
+  },
+
+  "Collection": {
+    "title": "셀포스트 컬렉션"
+  },
+
+  "EditProfile": {
+    "title": "프로필 편집",
+    "changePic": "프로필 사진 변경",
+    "namePlaceholder": "이름",
+    "genderPlaceholder": "성별",
+    "emailPlaceholder": "이메일 주소 (비공개)",
+    "locationPlaceholder": "위치 (선택 사항)",
+    "educationPlaceholder": "학력 (선택 사항)",
+    "aboutPlaceholder": "자기 소개 작성",
+    "save": "저장",
+    "updated": "프로필이 성공적으로 업데이트되었습니다!"
+  },
+
+  "HintPopup": {
+    "close": "닫기"
+  },
+
+  "PassedPopup": {
+    "congrats": "축하합니다!",
+    "firstMsg": "코인을 획득하셨습니다",
+    "coins": "코인",
+    "keep": "좋은 작업을 이어나가세요!",
+    "continue": "계속하기"
+  },
+
+  "BlockPopup": {
+    "block": "이 사용자를 성공적으로 차단했습니다",
+    "ok": "확인"
+  },
+
+  "Feedback": {
+    "feedback": "피드백 양식",
+    "namePlaceholder": "이름",
+    "emailPlaceholder": "이메일",
+    "message": "메시지",
+    "submit": "제출",
+    "toast": "피드백을 제출해 주셔서 감사합니다!",
+    "header": "피드백"
+  },
+
+  "DeleteAccount": {
+    "header": "계정 삭제",
+    "confirmText": "계정 삭제 확인",
+    "deleteText": "이용해 주셔서 감사합니다. 계정을 삭제하면 프로필, 자체 게시물 및 메시지를 포함한 모든 콘텐츠가 영구적으로 삭제됩니다.",
+    "confirmFirstText": "삭제를 확인하려면 아래에",
+    "confirmLastText": "를 입력하세요:",
+    "confirmBtn": "삭제 확인",
+    "cancel": "취소",
+    "toast": "계정이 성공적으로 삭제되었습니다!"
+  },
+
+  "Settings": {
+    "settings": "설정",
+    "terms": "서비스 약관",
+    "privacy": "개인정보 처리 방침",
+    "about": "소개",
+    "deleteAccount": "계정 삭제"
+  },
+  "Sod": {
+    "sod": "오늘의 셀피",
+    "congrats": "축하합니다"
+  },
+  "BlockHeader": {
+    "block": "블록"
+    }
+}

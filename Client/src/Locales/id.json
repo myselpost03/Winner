@@ -1,0 +1,155 @@
+{
+  "Loading": {
+    "loading": "Memuat..."
+  },
+
+  "Error": {
+    "error": "Terjadi kesalahan"
+  },
+
+  "Profile": {
+    "editProfile": "Sunting Profil",
+    "user": "Pengguna",
+    "about": "Tentang",
+    "aboutDesc": "Ceritakan tentang diri Anda :)",
+    "education": "Pendidikan",
+    "location": "Lokasi",
+    "gender": "Jenis Kelamin",
+    "feedback": "Masukan",
+    "supporters": "Pendukung"
+  },
+
+  "Search": {
+    "placeholder": "Cari MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Notifikasi",
+    "notificationText": "mengirimkan selpost Anda."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Buat Selpost",
+    "selfieRecognizable": "Selfie terdeteksi!",
+    "selfieNotRecognizable": "Memproses selfie Anda...",
+    "selfieCategory": "Kategori atau jenis selfie",
+    "selfieSecretMsg": "Ketik pesan Rahasia Anda..",
+    "receiver": "Nama pengguna kepada siapa Anda ingin menampilkan pesan rahasia"
+  },
+
+  "Selpost": {
+    "none": "Tidak ada",
+    "secretMsg": "Pesan Rahasia",
+    "fires": "Pemunculan"
+  },
+
+  "Comment": {
+    "comments": "Komentar",
+    "placeholder": "Tulis komentar...",
+    "button": "Komentar"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Kirimkan 2 pesan pertama Anda untuk mendapatkan balasan",
+    "placeholder": "Ketik pesan Anda di sini...",
+    "blocked": "Kamu diblokir oleh pengguna ini."
+  },
+
+  "CreateGuess": {
+    "hint": "Masukkan petunjuk apa pun yang terkait dengan judul",
+    "done": "Selesai",
+    "popupMessage": "Berhasil dibuat!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Perbarui Sekarang!",
+    "firstMessage": "Aplikasi mungkin tidak berfungsi dengan baik",
+    "secondMessage": "Silakan perbarui peramban Anda!",
+    "update": "Perbarui"
+  },
+
+  "GuessCard": {
+    "shareText": "Bagikan selfie Anda dengan pesan rahasia!",
+    "placeholder": "Tebak judul selfie...",
+    "finishedMsg": "Koin Tidak Cukup!"
+  },
+
+  "GuessCards": {
+    "title": "Tebak"
+  },
+
+  "AnswerPopup": {
+    "answer": "Jawaban",
+    "close": "Tutup"
+  },
+
+  "Collection": {
+    "title": "Koleksi Selpost"
+  },
+
+  "EditProfile": {
+    "title": "Sunting Profil",
+    "changePic": "Ganti foto profil",
+    "namePlaceholder": "Nama",
+    "genderPlaceholder": "Jenis Kelamin",
+    "emailPlaceholder": "Alamat Email (Pribadi)",
+    "locationPlaceholder": "Lokasi (opsional)",
+    "educationPlaceholder": "Pendidikan (opsional)",
+    "aboutPlaceholder": "Tulis tentang diri Anda",
+    "save": "Simpan",
+    "updated": "Profil berhasil diperbarui!"
+  },
+
+  "HintPopup": {
+    "close": "Tutup"
+  },
+
+  "PassedPopup": {
+    "congrats": "Selamat!",
+    "firstMsg": "Anda telah mendapatkan",
+    "coins": "koin",
+    "keep": "Lanjutkan pekerjaan bagus!",
+    "continue": "Lanjutkan"
+  },
+
+  "BlockPopup": {
+    "block": "Anda telah berhasil memblokir pengguna ini",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Formulir Umpan Balik",
+    "namePlaceholder": "Nama Anda",
+    "emailPlaceholder": "Email Anda",
+    "message": "Pesan Anda",
+    "submit": "Kirim",
+    "toast": "Terima kasih telah mengirimkan umpan balik Anda!",
+    "header": "Umpan Balik"
+  },
+
+  "DeleteAccount": {
+    "header": "Hapus Akun",
+    "confirmText": "Konfirmasi Penghapusan Akun",
+    "deleteText": "Kami menyesal melihat Anda pergi. Setelah akun Anda dihapus, semua konten Anda akan hilang secara permanen, termasuk profil Anda, pos pribadi, dan pesan-pesan Anda.",
+    "confirmFirstText": "Untuk mengkonfirmasi penghapusan, ketik",
+    "confirmLastText": "di bawah ini:",
+    "confirmBtn": "Konfirmasi penghapusan",
+    "cancel": "Batal",
+    "toast": "Akun Anda berhasil dihapus!"
+  },
+
+  "Settings": {
+    "settings": "Pengaturan",
+    "terms": "Syarat Layanan",
+    "privacy": "Kebijakan Privasi",
+    "about": "Tentang",
+    "deleteAccount": "Hapus Akun"
+  },
+  "Sod": {
+    "sod": "Selfie Hari Ini",
+    "congrats": "SELAMAT"
+  },
+  "BlockHeader": {
+    "block": "Blok"
+    }
+}

@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Aoboshi+One:regular);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #5271ff;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #dddddd;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+$slate-grey: #708090;
+$sky-blue: rgb(116, 192, 252);
+
+//! Font Families
+$gabriela: "gabriela";
+$poppins: "poppins";
+$averia: "averia serif libre";
+$aoboshi: "aoboshi one";
+
+//! SMARTPHONES
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .desktop-edit-profile {
+    display: none;
+  }
+
+  .mobile-edit-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 110vh;
+  }
+
+   
+
+  .mobile-edit-profile .mobile-edit-container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55%;
+    margin-bottom: 20%;
+    border-radius: 1rem;
+   
+  }
+
+  .mobile-edit-container .mobile-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -15vh 0 0 -10vw;
+  }
+
+  .mobile-inputs strong.profile{
+    margin: 5vh 0 1vh 0;
+    font-family: $poppins, serif;
+  }
+
+  .mobile-inputs strong.cover{
+    margin: 0vh 0 1vh 0;
+    font-family: $poppins, serif;
+  }
+
+  .mobile-edit-container .mobile-inputs input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 80vw;
+    background-color: $light-white;
+    margin: 0 0 3vh 0;
+  }
+
+  .mobile-edit-container .mobile-inputs textarea {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 80vw;
+    background-color: $light-white;
+    margin: 0 0 3vh 0;
+  }
+
+  .mobile-edit-container .mobile-inputs input::placeholder {
+    font-family: $poppins, serif;
+  }
+
+  .mobile-edit-container .mobile-inputs textarea::placeholder {
+    font-family: $poppins, serif;
+  }
+
+  .mobile-edit-container .mobile-inputs button {
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    width: 50vw;
+    background-color: $royal-blue;
+    color: $white;
+    margin: 0 0 3vh 0;
+    font-family: $poppins, serif;
+    font-weight: bold;
+  }
+}
+
+//! Desktops
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .mobile-edit-profile {
+    display: none;
+  }
+
+  .edit-profile .header{
+    display:none;
+  }
+
+  .desktop-edit-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 100vh;
+  }
+
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+
+
+  .desktop-edit-profile .edit-container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    border-radius: 1rem;
+  }
+
+  .edit-container .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -12vh 0 0 -10vw;
+  }
+
+  .inputs strong.profile{
+    margin: 5vh 0 1vh 0;
+    font-family: $poppins, serif;
+  }
+
+  .inputs strong.cover{
+    margin: 0vh 0 1vh 0;
+    font-family: $poppins, serif;
+  }
+
+  .edit-container .inputs input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 40vw;
+    background-color: $light-white;
+    margin: 0 0 3vh 0;
+  }
+
+  .edit-container .inputs textarea {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 40vw;
+    background-color: $light-white;
+    margin: 0 0 3vh 0;
+  }
+
+  .edit-container .inputs input::placeholder {
+    font-family: $poppins, serif;
+  }
+
+  .edit-container .inputs textarea::placeholder {
+    font-family: $poppins, serif;
+  }
+
+  .edit-container .inputs button {
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    width: 10vw;
+    background-color: $royal-blue;
+    color: $white;
+    margin: 0 0 3vh 0;
+    font-family: $poppins, serif;
+    font-weight: bold;
+  }
+
+  .edit-container .inputs button:hover {
+    cursor: pointer;
+  }
+
+  .header{
+    display: none;
+  }
+}

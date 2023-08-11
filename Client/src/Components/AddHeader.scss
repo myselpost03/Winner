@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #3766f5;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #a8a4a4;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+
+.header {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: $royal-blue;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index:1;
+}
+
+.back-arrow {
+  margin-right: 1.5rem;
+  color: $white;
+}
+
+.title {
+  flex: 1; 
+  font-family: 'poppins', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $white;
+}
+
+

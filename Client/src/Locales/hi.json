@@ -1,0 +1,155 @@
+{
+  "Loading": {
+    "loading": "लोड हो रहा है..."
+  },
+
+  "Error": {
+    "error": "कुछ गड़बड़ हो गई है"
+  },
+
+  "Profile": {
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "user": "उपयोगकर्ता",
+    "about": "के बारे में",
+    "aboutDesc": "अपने बारे में लोगों को बताएँ:)",
+    "education": "शिक्षा",
+    "location": "स्थान",
+    "gender": "लिंग",
+    "feedback": "प्रतिक्रिया",
+    "supporters": "समर्थकों"
+  },
+
+  "Search": {
+    "placeholder": "मेरे सेल्पोस्ट खोजें..."
+  },
+
+  "Notification": {
+    "notificationTitle": "सूचना",
+    "notificationText": "ने आपकी सेल्पोस्ट द्वारा आग लगाई है।"
+  },
+
+  "CreateSelpost": {
+    "createTitle": "सेल्पोस्ट बनाएं",
+    "selfieRecognizable": "सेल्फी पहचानी गई!",
+    "selfieNotRecognizable": "अपनी सेल्फी को प्रोसेस किया जा रहा है...",
+    "selfieCategory": "सेल्फी का श्रेणी या प्रकार",
+    "selfieSecretMsg": "अपना गुप्त संदेश टाइप करें..",
+    "receiver": "उस उपयोगकर्ता का नाम दर्ज करें जिसे आप गुप्त संदेश दिखाना चाहते हैं"
+  },
+
+  "Selpost": {
+    "none": "कोई नहीं",
+    "secretMsg": "गुप्त संदेश",
+    "fires": "आग"
+  },
+
+  "Comment": {
+    "comments": "टिप्पणियाँ",
+    "placeholder": "एक टिप्पणी लिखें...",
+    "button": "टिप्पणी"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "उत्तर प्राप्त करने के लिए अपने पहले 2 संदेश भेजें",
+    "placeholder": "यहाँ अपना संदेश टाइप करें...",
+    "blocked": "आपको इस उपयोगकर्ता द्वारा अवरुद्ध कर दिया गया है।"
+  },
+
+  "CreateGuess": {
+    "hint": "शीर्षक से संबंधित कोई संकेत दर्ज करें",
+    "done": "किया",
+    "popupMessage": "सफलतापूर्वक बनाया गया!"
+  },
+
+  "BrowserPopup": {
+    "heading": "अब अपडेट करें!",
+    "firstMessage": "ऐप्लिकेशन अनुचित व्यवहार कर सकती है इसलिए",
+    "secondMessage": "कृपया अपना ब्राउज़र अपडेट करें!",
+    "update": "अपडेट करें"
+  },
+
+  "GuessCard": {
+    "shareText": "अपनी सेल्फी को गुप्त संदेश के साथ साझा करें!",
+    "placeholder": "सेल्फी शीर्षक को जानें...",
+    "finishedMsg": "पर्याप्त सिक्के नहीं!"
+  },
+
+  "GuessCards": {
+    "title": "अनुमान"
+  },
+
+  "AnswerPopup": {
+    "answer": "उत्तर",
+    "close": "बंद करें"
+  },
+
+  "Collection": {
+    "title": "सेल्पोस्ट संग्रह"
+  },
+
+  "EditProfile": {
+    "title": "प्रोफ़ाइल संपादित करें",
+    "changePic": "प्रोफ़ाइल चित्र बदलें",
+    "namePlaceholder": "नाम",
+    "genderPlaceholder": "लिंग",
+    "emailPlaceholder": "ईमेल पता (निजी)",
+    "locationPlaceholder": "स्थान (वैकल्पिक)",
+    "educationPlaceholder": "शिक्षा (वैकल्पिक)",
+    "aboutPlaceholder": "अपने बारे में लिखें",
+    "save": "सहेजें",
+    "updated": "प्रोफ़ाइल सफलतापूर्वक अपडेट हुई है!"
+  },
+
+  "HintPopup": {
+    "close": "बंद करें"
+  },
+
+  "PassedPopup": {
+    "congrats": "बधाई हो!",
+    "firstMsg": "आपने कमाया है",
+    "coins": "सिक्के",
+    "keep": "महान काम जारी रखें",
+    "continue": "जारी रखें"
+  },
+
+  "BlockPopup": {
+    "block": "आपने इस उपयोगकर्ता को सफलतापूर्वक ब्लॉक कर दिया है",
+    "ok": "ठीक है"
+  },
+
+  "Feedback": {
+    "feedback": "प्रतिक्रिया फॉर्म",
+    "namePlaceholder": "आपका नाम",
+    "emailPlaceholder": "आपका ईमेल",
+    "message": "आपका संदेश",
+    "submit": "सबमिट करें",
+    "toast": "आपकी प्रतिक्रिया सबमिट करने के लिए धन्यवाद!",
+    "header": "प्रतिक्रिया"
+  },
+
+  "DeleteAccount": {
+    "header": "खाता हटाएँ",
+    "confirmText": "खाता हटाने की पुष्टि करें",
+    "deleteText": "हमें आपको जाते देखकर दुख हुआ। एक बार आपका खाता हटाया जाने के बाद, आपकी सभी सामग्री स्थायी रूप से हट जाएगी, जिसमें आपकी प्रोफ़ाइल, स्व-पोस्ट और संदेश शामिल हैं।",
+    "confirmFirstText": "हटाने की पुष्टि करने के लिए, नीचे दिए गए",
+    "confirmLastText": "को टाइप करें:",
+    "confirmBtn": "हटाने की पुष्टि करें",
+    "cancel": "रद्द करें",
+    "toast": "आपका खाता सफलतापूर्वक हटा दिया गया है!"
+  },
+
+  "Settings": {
+    "settings": "सेटिंग्स",
+    "terms": "सेवा की शर्तें",
+    "privacy": "गोपनीयता नीति",
+    "about": "हमारे बारे में",
+    "deleteAccount": "खाता हटाएँ"
+  },
+  "Sod": {
+    "sod": "आज का सेल्फी",
+    "congrats": "बधाई हो"
+  },
+  "BlockHeader": {
+    "block": "खंड"
+  }
+}

@@ -1,0 +1,35 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .tabs {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab.active {
+  color: #fff;
+}
+
+.tab:not(.active) {
+  color: #c8d5f1;
+}
+
+.tab span {
+  margin-left: 8px;
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}}

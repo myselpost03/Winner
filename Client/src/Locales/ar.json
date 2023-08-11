@@ -1,0 +1,155 @@
+{
+  "Loading": {
+    "loading": "جارٍ التحميل..."
+  },
+
+  "Error": {
+    "error": "حدث خطأ ما"
+  },
+
+  "Profile": {
+    "editProfile": "تعديل الملف الشخصي",
+    "user": "المستخدم",
+    "about": "حول",
+    "aboutDesc": "أخبر الناس عن نفسك :)",
+    "education": "التعليم",
+    "location": "الموقع",
+    "gender": "الجنس",
+    "feedback": "ملاحظات",
+    "supporters": "الداعمون"
+  },
+
+  "Search": {
+    "placeholder": "ابحث في MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "الإشعارات",
+    "notificationText": "أطلقت سيلبوست الخاص بك."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "إنشاء سيلبوست",
+    "selfieRecognizable": "تم التعرف على السيلفي!",
+    "selfieNotRecognizable": "جاري معالجة السيلفي الخاص بك...",
+    "selfieCategory": "فئة أو نوع السيلفي",
+    "selfieSecretMsg": "اكتب رسالتك السرية...",
+    "receiver": "اسم المستخدم الذي ترغب في عرض الرسالة السرية له"
+  },
+
+  "Selpost": {
+    "none": "لا شيء",
+    "secretMsg": "الرسالة السرية",
+    "fires": "الإشعالات"
+  },
+
+  "Comment": {
+    "comments": "التعليقات",
+    "placeholder": "اكتب تعليقًا...",
+    "button": "تعليق"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "أرسل أول رسالتين لتحصل على رد",
+    "placeholder": "اكتب رسالتك هنا...",
+    "blocked": "أنت محظور من قبل هذا المستخدم"
+  },
+
+  "CreateGuess": {
+    "hint": "أدخل أي تلميح متعلق بالعنوان",
+    "done": "تم",
+    "popupMessage": "تم إنشاؤه بنجاح!"
+  },
+
+  "BrowserPopup": {
+    "heading": "قم بالتحديث الآن!",
+    "firstMessage": "يمكن أن يتصرف التطبيق بشكل غير صحيح،",
+    "secondMessage": "يرجى تحديث المتصفح الخاص بك!",
+    "update": "تحديث"
+  },
+
+  "GuessCard": {
+    "shareText": "شارك سيلفياتك مع رسالة سرية!",
+    "placeholder": "حزر عنوان السيلفي...",
+    "finishedMsg": "ليس لديك عملات كافية!"
+  },
+
+  "GuessCards": {
+    "title": "تخمين"
+  },
+
+  "AnswerPopup": {
+    "answer": "الإجابة",
+    "close": "إغلاق"
+  },
+
+  "Collection": {
+    "title": "مجموعة سيلبوست"
+  },
+
+  "EditProfile": {
+    "title": "تعديل الملف الشخصي",
+    "changePic": "تغيير صورة الملف الشخصي",
+    "namePlaceholder": "الاسم",
+    "genderPlaceholder": "الجنس",
+    "emailPlaceholder": "عنوان البريد الإلكتروني (خاص)",
+    "locationPlaceholder": "الموقع (اختياري)",
+    "educationPlaceholder": "التعليم (اختياري)",
+    "aboutPlaceholder": "اكتب عن نفسك",
+    "save": "حفظ",
+    "updated": "تم تحديث الملف الشخصي بنجاح!"
+  },
+
+  "HintPopup": {
+    "close": "إغلاق"
+  },
+
+  "PassedPopup": {
+    "congrats": "تهانينا!",
+    "firstMsg": "لقد حصلت على",
+    "coins": "عملة",
+    "keep": "استمر في العمل الرائع!",
+    "continue": "استمر"
+  },
+
+  "BlockPopup": {
+    "block": "لقد قمت بحظر هذا المستخدم بنجاح",
+    "ok": "موافق"
+  },
+
+  "Feedback": {
+    "feedback": "نموذج الملاحظات",
+    "namePlaceholder": "اسمك",
+    "emailPlaceholder": "بريدك الالكتروني",
+    "message": "رسالتك",
+    "submit": "يُقدِّم",
+    "toast": "شكرا لإرسال ملاحظاتك!",
+    "header": "تعليق"
+  },
+
+  "DeleteAccount": {
+    "header": "حذف الحساب",
+    "confirmText": "قم بتأكيد حذف الحساب",
+    "deleteText": "نأسف لمغادرتك. بمجرد حذف حسابك ، سيتم حذف كل المحتوى الخاص بك بشكل دائم ، بما في ذلك ملف التعريف الخاص بك ، والمشاركات الذاتية ، والرسائل.",
+    "confirmFirstText": "لتأكيد الحذف ، اكتب",
+    "confirmLastText": "أقل:",
+    "confirmBtn": "تأكيد الحذف",
+    "cancel": "يلغي",
+    "toast": "تم حذف حسابك بنجاح!"
+  },
+
+  "Settings": {
+    "settings": "إعدادات",
+    "terms": "شروط الخدمة",
+    "privacy": "سياسة الخصوصية",
+    "about": "عن",
+    "deleteAccount": "حذف الحساب"
+  },
+  "Sod": {
+    "sod": "سيلفي اليوم",
+    "congrats": "تهانينا"
+  },
+  "BlockHeader": {
+    "block": "كتلة"
+  }
+}

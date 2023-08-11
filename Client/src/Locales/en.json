@@ -1,0 +1,161 @@
+{
+  "Loading": {
+    "loading": "Loading..."
+  },
+
+  "Error": {
+    "error": "Something went wrong"
+  },
+
+  "Profile": {
+    "editProfile": "Edit Profile",
+    "user": "User",
+    "about": "About",
+    "aboutDesc": "Tell people about yourself:)",
+    "education": "Education",
+    "location": "Location",
+    "gender": "Gender",
+    "feedback": "Feedback",
+    "supporters": "0 Supporters"
+  },
+
+  "Search": {
+    "placeholder": "Search MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Notification",
+    "notificationText": "fired your selpost."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Create Selpost",
+    "selfieRecognizable": "Selfie recognized!",
+    "selfieNotRecognizable": "Processing your selfie...",
+    "selfieCategory": "Category or type of selfie",
+    "selfieSecretMsg": "Type your Secret message..",
+    "receiver": "Username to whom you want to show the secret message"
+  },
+
+  "Comment": {
+    "comments": "Comments",
+    "placeholder": "Write a comment...",
+    "button": "Comment"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Send your first 2 messages to get reply",
+    "placeholder": "Type your message here...",
+    "blocked": "You are blocked by this user."
+  },
+
+  "CreateGuess": {
+    "hint": "Enter any clue related to title",
+    "done": "Done",
+    "popupMessage": "Created successfully!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Update Now!",
+    "firstMessage": "Application can misbehave so",
+    "secondMessage": "Please update your browser!",
+    "update": "Update"
+  },
+
+  "GuessCard": {
+    "shareText": "Share your selfies with a secret message!",
+    "placeholder": "Guess the selfie title...",
+    "finishedMsg": "Not Enough Coins!"
+  },
+
+  "GuessCards": {
+    "title": "Guess"
+  },
+
+  "AnswerPopup": {
+    "answer": "Answer",
+    "close": "Close"
+  },
+
+  "Collection": {
+    "title": "Selpost Collection"
+  },
+
+  "EditProfile": {
+    "title": "Edit Profile",
+    "changePic": "Change profile picture",
+    "namePlaceholder": "Name",
+    "genderPlaceholder": "Gender",
+    "emailPlaceholder": "Email Address (Private)",
+    "locationPlaceholder": "Location (optional)",
+    "educationPlaceholder": "Education (optional)",
+    "aboutPlaceholder": "Write about yourself",
+    "save": "Save",
+    "updated": "Profile update successfully!"
+  },
+
+  "HintPopup": {
+    "close": "Close"
+  },
+
+  "PassedPopup": {
+    "congrats": "Congratulations!",
+    "firstMsg": "You've earned",
+    "coins": "coins",
+    "keep": "Keep up the great work!",
+    "continue": "Continue"
+  },
+
+  "BlockPopup": {
+    "block": "You have blocked this user successfully",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Feedback Form",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "message": "Your Message",
+    "submit": "Submit",
+    "toast": "Thanks for submitting your feedback!",
+    "header": "Feedback"
+  },
+
+  "DeleteAccount": {
+    "header": "Delete Account",
+    "confirmText": "Confirm Account Deletion",
+    "deleteText": "We are sorry to see you go. Once your account is deleted, all of your content will be permanently gone, including your profile, self-posts, and messages.",
+    "confirmFirstText": "To confirm deletion, type",
+    "confirmLastText": "below:",
+    "confirmBtn": "Confirm deletion",
+    "cancel": "Cancel",
+    "toast": "Your account is deleted successfully!"
+  },
+
+  "Settings": {
+    "settings": "Settings",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "about": "About",
+    "deleteAccount": "Delete Account"
+  },
+
+  "Selpost": {
+    "secretMsg": "Secret Message",
+    "fires": "Fires",
+    "none": "None"
+  },
+
+  "SelpostUpload": {
+    "success": "Selpost uploaded successfully!"
+  },
+
+  "Sod": {
+    "sod": "Selfie Of The Day",
+    "congrats": "CONGRATS"
+  },
+
+  "BlockHeader": {
+    "block": "Block"
+  }
+}

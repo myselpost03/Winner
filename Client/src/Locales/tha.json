@@ -1,0 +1,155 @@
+{
+  "Loading": {
+    "loading": "กำลังโหลด..."
+  },
+
+  "Error": {
+    "error": "เกิดข้อผิดพลาด"
+  },
+
+  "Profile": {
+    "editProfile": "แก้ไขโปรไฟล์",
+    "user": "ผู้ใช้งาน",
+    "about": "เกี่ยวกับ",
+    "aboutDesc": "แนะนำตัวเองแก่คนอื่นๆ :)",
+    "education": "การศึกษา",
+    "location": "ที่ตั้ง",
+    "gender": "เพศ",
+    "feedback": "ข้อเสนอแนะ",
+    "supporters": "ผู้สนับสนุน"
+  },
+
+  "Search": {
+    "placeholder": "ค้นหา MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "การแจ้งเตือน",
+    "notificationText": "ได้เผยแพร่ selpost ของคุณ"
+  },
+
+  "CreateSelpost": {
+    "createTitle": "สร้าง Selpost",
+    "selfieRecognizable": "รู้จัก Selfie!",
+    "selfieNotRecognizable": "กำลังประมวลผล Selfie ของคุณ...",
+    "selfieCategory": "หมวดหมู่หรือประเภทของ Selfie",
+    "selfieSecretMsg": "พิมพ์ข้อความลับของคุณ..",
+    "receiver": "ชื่อผู้ใช้ที่คุณต้องการแสดงข้อความลับ"
+  },
+
+  "Selpost": {
+    "none": "ไม่มี",
+    "category": "{{category}}",
+    "secretMsg": "ข้อความลับ",
+    "fires": "สูญเปล่า"
+  },
+
+  "Comment": {
+    "comments": "ความคิดเห็น",
+    "placeholder": "เขียนความคิดเห็น...",
+    "button": "ความคิดเห็น"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "ส่งข้อความ 2 ข้อความแรกเพื่อรับการตอบกลับ",
+    "placeholder": "พิมพ์ข้อความของคุณที่นี่...",
+    "blocked": "คุณถูกบล็อกโดยผู้ใช้นี้"
+  },
+
+  "CreateGuess": {
+    "hint": "ป้อนคำใบ้ที่เกี่ยวข้องกับหัวข้อ",
+    "done": "เสร็จสิ้น",
+    "popupMessage": "สร้างเรียบร้อยแล้ว!"
+  },
+
+  "BrowserPopup": {
+    "heading": "อัปเดตเดี๋ยวนี้!",
+    "firstMessage": "แอปพลิเคชันอาจมีปัญหาในการทำงาน",
+    "secondMessage": "กรุณาอัปเดตเบราว์เซอร์ของคุณ!",
+    "update": "อัปเดต"
+  },
+
+  "GuessCard": {
+    "shareText": "แชร์ภาพ Selfie ของคุณพร้อมกับข้อความลับ!",
+    "placeholder": "เดาชื่อภาพ Selfie...",
+    "finishedMsg": "เหรียญไม่เพียงพอ!"
+  },
+
+  "GuessCards": {
+    "title": "เดา"
+  },
+
+  "AnswerPopup": {
+    "answer": "คำตอบ",
+    "close": "ปิด"
+  },
+
+  "Collection": {
+    "title": "คอลเลกชัน Selpost"
+  },
+
+  "EditProfile": {
+    "title": "แก้ไขโปรไฟล์",
+    "changePic": "เปลี่ยนรูปโปรไฟล์",
+    "namePlaceholder": "ชื่อ",
+    "genderPlaceholder": "เพศ",
+    "emailPlaceholder": "ที่อยู่อีเมล (เป็นส่วนตัว)",
+    "locationPlaceholder": "ที่ตั้ง (ตัวเลือก)",
+    "educationPlaceholder": "การศึกษา (ตัวเลือก)",
+    "aboutPlaceholder": "เขียนเกี่ยวกับตัวคุณเอง",
+    "save": "บันทึก",
+    "updated": "อัปเดตโปรไฟล์เรียบร้อยแล้ว!"
+  },
+
+  "HintPopup": {
+    "close": "ปิด"
+  },
+
+  "PassedPopup": {
+    "congrats": "ขอแสดงความยินดี!",
+    "firstMsg": "คุณได้รับ",
+    "coins": "เหรียญ",
+    "keep": "ทำงานที่ดีต่อไปเรื่อยๆ!",
+    "continue": "ดำเนินการต่อ"
+  },
+
+  "BlockPopup": {
+    "block": "คุณบล็อกผู้ใช้นี้สำเร็จแล้ว",
+    "ok": "ตกลง"
+  },
+  "Feedback": {
+    "feedback": "แบบฟอร์มข้อเสนอแนะ",
+    "namePlaceholder": "ชื่อของคุณ",
+    "emailPlaceholder": "อีเมลของคุณ",
+    "message": "ข้อความของคุณ",
+    "submit": "ส่ง",
+    "toast": "ขอบคุณสำหรับการส่งข้อเสนอแนะของคุณ!",
+    "header": "ข้อเสนอแนะ"
+  },
+
+  "DeleteAccount": {
+    "header": "ลบบัญชี",
+    "confirmText": "ยืนยันการลบบัญชี",
+    "deleteText": "เราเสียใจที่ต้องเห็นคุณออกไป หลังจากลบบัญชีของคุณแล้ว ข้อมูลทั้งหมดของคุณจะหายไปอย่างถาวร รวมถึงโปรไฟล์ของคุณ โพสต์ส่วนตัว และข้อความ",
+    "confirmFirstText": "เพื่อยืนยันการลบ กรุณาพิมพ์",
+    "confirmLastText": "ด้านล่าง:",
+    "confirmBtn": "ยืนยันการลบ",
+    "cancel": "ยกเลิก",
+    "toast": "ลบบัญชีของคุณสำเร็จแล้ว!"
+  },
+
+  "Settings": {
+    "settings": "การตั้งค่า",
+    "terms": "เงื่อนไขการให้บริการ",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "about": "เกี่ยวกับ",
+    "deleteAccount": "ลบบัญชี"
+  },
+  "Sod": {
+    "sod": "รูปเซลฟี่ของวันนี้",
+    "congrats": "ขอแสดงความยินดี"
+  },
+  "BlockHeader": {
+    "block": "บล็อก"
+    }
+}

@@ -1,0 +1,154 @@
+{
+  "Loading": {
+    "loading": "Carregando..."
+  },
+
+  "Error": {
+    "error": "Algo deu errado"
+  },
+
+  "Profile": {
+    "editProfile": "Editar Perfil",
+    "user": "Usuário",
+    "about": "Sobre",
+    "aboutDesc": "Conte às pessoas sobre você :)",
+    "education": "Educação",
+    "location": "Localização",
+    "gender": "Gênero",
+    "feedback": "Feedback",
+    "supporters": "Apoiadores"
+  },
+
+  "Search": {
+    "placeholder": "Pesquisar MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Notificação",
+    "notificationText": "disparou o seu selpost."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Criar Selpost",
+    "selfieRecognizable": "Selfie reconhecida!",
+    "selfieNotRecognizable": "Processando sua selfie...",
+    "selfieCategory": "Categoria ou tipo de selfie",
+    "selfieSecretMsg": "Digite sua mensagem secreta...",
+    "receiver": "Nome de usuário para quem você deseja mostrar a mensagem secreta"
+  },
+
+  "Selpost": {
+    "none": "Nenhum",
+    "secretMsg": "Mensagem Secreta",
+    "fires": "Fogos"
+  },
+
+  "Comment": {
+    "comments": "Comentários",
+    "placeholder": "Escreva um comentário...",
+    "button": "Comentar"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Envie suas primeiras 2 mensagens para obter resposta",
+    "placeholder": "Digite sua mensagem aqui...",
+    "blocked": "Você está bloqueado por este usuário."
+  },
+
+  "CreateGuess": {
+    "hint": "Digite qualquer dica relacionada ao título",
+    "done": "Concluído",
+    "popupMessage": "Criado com sucesso!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Atualize Agora!",
+    "firstMessage": "O aplicativo pode se comportar de forma inadequada, então",
+    "secondMessage": "Por favor, atualize seu navegador!",
+    "update": "Atualizar"
+  },
+
+  "GuessCard": {
+    "shareText": "Compartilhe suas selfies com uma mensagem secreta!",
+    "placeholder": "Adivinhe o título da selfie...",
+    "finishedMsg": "Moedas Insuficientes!"
+  },
+
+  "GuessCards": {
+    "title": "Adivinhar"
+  },
+
+  "AnswerPopup": {
+    "answer": "Resposta",
+    "close": "Fechar"
+  },
+
+  "Collection": {
+    "title": "Coleção de Selposts"
+  },
+
+  "EditProfile": {
+    "title": "Editar Perfil",
+    "changePic": "Alterar foto do perfil",
+    "namePlaceholder": "Nome",
+    "genderPlaceholder": "Gênero",
+    "emailPlaceholder": "Endereço de e-mail (Privado)",
+    "locationPlaceholder": "Localização (opcional)",
+    "educationPlaceholder": "Educação (opcional)",
+    "aboutPlaceholder": "Escreva sobre você",
+    "save": "Salvar",
+    "updated": "Perfil atualizado com sucesso!"
+  },
+
+  "HintPopup": {
+    "close": "Fechar"
+  },
+
+  "PassedPopup": {
+    "congrats": "Parabéns!",
+    "firstMsg": "Você ganhou",
+    "coins": "moedas",
+    "keep": "Continue com o ótimo trabalho!",
+    "continue": "Continuar"
+  },
+  "BlockPopup": {
+    "block": "Você bloqueou esse usuário com sucesso",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Formulário de Feedback",
+    "namePlaceholder": "Seu Nome",
+    "emailPlaceholder": "Seu Email",
+    "message": "Sua Mensagem",
+    "submit": "Enviar",
+    "toast": "Obrigado por enviar seu feedback!",
+    "header": "Feedback"
+  },
+
+  "DeleteAccount": {
+    "header": "Excluir Conta",
+    "confirmText": "Confirmar Exclusão da Conta",
+    "deleteText": "Lamentamos vê-lo partir. Uma vez que sua conta seja excluída, todo o seu conteúdo será permanentemente removido, incluindo seu perfil, suas próprias postagens e mensagens.",
+    "confirmFirstText": "Para confirmar a exclusão, digite",
+    "confirmLastText": "abaixo:",
+    "confirmBtn": "Confirmar exclusão",
+    "cancel": "Cancelar",
+    "toast": "Sua conta foi excluída com sucesso!"
+  },
+
+  "Settings": {
+    "settings": "Configurações",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "about": "Sobre",
+    "deleteAccount": "Excluir Conta"
+  },
+  "Sod": {
+    "sod": "Selfie do Dia",
+    "congrats": "PARABÉNS"
+  },
+  "BlockHeader": {
+    "block": "Bloco"
+    }
+}

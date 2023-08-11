@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "加载中..."
+  },
+
+  "Error": {
+    "error": "出现错误"
+  },
+
+  "Profile": {
+    "editProfile": "编辑个人资料",
+    "user": "用户",
+    "about": "关于",
+    "aboutDesc": "告诉别人关于你自己 :)",
+    "education": "教育",
+    "location": "地点",
+    "gender": "性别",
+    "feedback": "反馈",
+    "supporters": "支持者"
+  },
+
+  "Search": {
+    "placeholder": "搜索 MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "通知",
+    "notificationText": "点燃了你的 Selpost。"
+  },
+
+  "CreateSelpost": {
+    "createTitle": "创建 Selpost",
+    "selfieRecognizable": "已识别到自拍！",
+    "selfieNotRecognizable": "正在处理您的自拍...",
+    "selfieCategory": "自拍的类别或类型",
+    "selfieSecretMsg": "输入您的秘密信息...",
+    "receiver": "您想向哪个用户名展示秘密信息"
+  },
+
+  "Selpost": {
+    "none": "无",
+    "category": "{{category}}",
+    "secretMsg": "秘密信息",
+    "fires": "点燃次数"
+  },
+
+  "Comment": {
+    "comments": "评论",
+    "placeholder": "写下评论...",
+    "button": "评论"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "发送您的前两条消息以获得回复",
+    "placeholder": "在这里输入您的消息...",
+    "blocked": "你被此用户封锁了。"
+  },
+
+  "CreateGuess": {
+    "hint": "输入与标题相关的任何线索",
+    "done": "完成",
+    "popupMessage": "创建成功！"
+  },
+
+  "BrowserPopup": {
+    "heading": "立即更新！",
+    "firstMessage": "应用程序可能会出现异常情况，请",
+    "secondMessage": "请更新您的浏览器！",
+    "update": "更新"
+  },
+
+  "GuessCard": {
+    "shareText": "与秘密信息分享您的自拍照！",
+    "placeholder": "猜测自拍标题...",
+    "finishedMsg": "硬币不足！"
+  },
+
+  "GuessCards": {
+    "title": "猜测"
+  },
+
+  "AnswerPopup": {
+    "answer": "答案",
+    "close": "关闭"
+  },
+
+  "Collection": {
+    "title": "Selpost 收藏"
+  },
+
+  "EditProfile": {
+    "title": "编辑个人资料",
+    "changePic": "更改个人图片",
+    "namePlaceholder": "姓名",
+    "genderPlaceholder": "性别",
+    "emailPlaceholder": "电子邮件地址（保密）",
+    "locationPlaceholder": "地点（可选）",
+    "educationPlaceholder": "教育（可选）",
+    "aboutPlaceholder": "写下关于自己的信息",
+    "save": "保存",
+    "updated": "个人资料更新成功！"
+  },
+
+  "HintPopup": {
+    "close": "关闭"
+  },
+
+  "PassedPopup": {
+    "congrats": "恭喜！",
+    "firstMsg": "您已获得",
+    "coins": "硬币",
+    "keep": "继续努力！",
+    "continue": "继续"
+  },
+
+  "BlockPopup": {
+    "block": "您已成功封锁此用户",
+    "ok": "确定"
+  },
+
+  "Feedback": {
+    "feedback": "反馈表单",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "您的电子邮箱",
+    "message": "您的留言",
+    "submit": "提交",
+    "toast": "感谢您提交反馈！",
+    "header": "反馈"
+  },
+
+  "DeleteAccount": {
+    "header": "删除账户",
+    "confirmText": "确认删除账户",
+    "deleteText": "很遗憾看到您离开。一旦您的账户被删除，所有内容将永久消失，包括您的个人资料、自身发布的内容和消息。",
+    "confirmFirstText": "为确认删除，请输入",
+    "confirmLastText": "：",
+    "confirmBtn": "确认删除",
+    "cancel": "取消",
+    "toast": "您的账户已成功删除！"
+  },
+
+  "Settings": {
+    "settings": "设置",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "about": "关于",
+    "deleteAccount": "删除账户"
+  },
+  "Sod": {
+    "sod": "今日自拍",
+    "congrats": "恭喜"
+  },
+  "BlockHeader": {
+    "block": "块"
+  }
+}

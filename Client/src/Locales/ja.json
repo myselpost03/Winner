@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "読み込み中..."
+  },
+
+  "Error": {
+    "error": "エラーが発生しました"
+  },
+
+  "Profile": {
+    "editProfile": "プロフィール編集",
+    "user": "ユーザー",
+    "about": "自己紹介",
+    "aboutDesc": "自己紹介を入力してください:)",
+    "education": "学歴",
+    "location": "場所",
+    "gender": "性別",
+    "feedback": "フィードバック",
+    "supporters": "サポーター"
+  },
+
+  "Search": {
+    "placeholder": "MySelpostを検索..."
+  },
+
+  "Notification": {
+    "notificationTitle": "通知",
+    "notificationText": "あなたのSelpostを閲覧しました。"
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Selpostを作成",
+    "selfieRecognizable": "セルフィーが認識されました！",
+    "selfieNotRecognizable": "セルフィーを処理中...",
+    "selfieCategory": "セルフィーのカテゴリまたはタイプ",
+    "selfieSecretMsg": "秘密のメッセージを入力してください。",
+    "receiver": "秘密のメッセージを表示するユーザー名"
+  },
+
+  "Selpost": {
+    "none": "なし",
+    "secretMsg": "秘密のメッセージ",
+    "fires": "ファイア"
+  },
+
+  "Comment": {
+    "comments": "コメント",
+    "placeholder": "コメントを入力してください...",
+    "button": "コメント"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "最初の2つのメッセージを送信して返信を得てください",
+    "placeholder": "ここにメッセージを入力してください...",
+    "blocked": "このユーザーによってブロックされています。"
+  },
+
+  "CreateGuess": {
+    "hint": "タイトルに関連するヒントを入力してください",
+    "done": "完了",
+    "popupMessage": "作成が成功しました！"
+  },
+
+  "BrowserPopup": {
+    "heading": "今すぐ更新！",
+    "firstMessage": "アプリケーションの動作が不安定になる可能性があるため",
+    "secondMessage": "ブラウザを更新してください！",
+    "update": "更新"
+  },
+
+  "GuessCard": {
+    "shareText": "秘密のメッセージ付きのセルフィーを共有しましょう！",
+    "placeholder": "セルフィーのタイトルを推測してください...",
+    "finishedMsg": "コインが足りません！"
+  },
+
+  "GuessCards": {
+    "title": "当てる"
+  },
+
+  "AnswerPopup": {
+    "answer": "答え",
+    "close": "閉じる"
+  },
+
+  "Collection": {
+    "title": "Selpostコレクション"
+  },
+
+  "EditProfile": {
+    "title": "プロフィール編集",
+    "changePic": "プロフィール画像を変更",
+    "namePlaceholder": "名前",
+    "genderPlaceholder": "性別",
+    "emailPlaceholder": "メールアドレス（非公開）",
+    "locationPlaceholder": "場所（任意）",
+    "educationPlaceholder": "学歴（任意）",
+    "aboutPlaceholder": "自己紹介を書いてください",
+    "save": "保存",
+    "updated": "プロフィールが正常に更新されました！"
+  },
+
+  "HintPopup": {
+    "close": "閉じる"
+  },
+
+  "PassedPopup": {
+    "congrats": "おめでとうございます！",
+    "firstMsg": "コインを獲得しました",
+    "coins": "コイン",
+    "keep": "これからも頑張ってください！",
+    "continue": "続ける"
+  },
+
+  "BlockPopup": {
+    "block": "このユーザーを正常にブロックしました",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "フィードバックフォーム",
+    "namePlaceholder": "お名前",
+    "emailPlaceholder": "メールアドレス",
+    "message": "メッセージ",
+    "submit": "送信",
+    "toast": "フィードバックの送信ありがとうございます！",
+    "header": "フィードバック"
+  },
+
+  "DeleteAccount": {
+    "header": "アカウント削除",
+    "confirmText": "アカウント削除の確認",
+    "deleteText": "ご利用いただきありがとうございました。アカウントを削除すると、プロフィール、投稿、メッセージなど、すべてのコンテンツが永久に削除されます。",
+    "confirmFirstText": "削除を確認するには、以下を入力してください：",
+    "confirmLastText": "：",
+    "confirmBtn": "削除を確認する",
+    "cancel": "キャンセル",
+    "toast": "アカウントが正常に削除されました！"
+  },
+
+  "Settings": {
+    "settings": "設定",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "about": "について",
+    "deleteAccount": "アカウント削除"
+  },
+  "Sod": {
+    "sod": "今日のセルフィー",
+    "congrats": "おめでとう"
+  },
+
+  "BlockHeader": {
+    "block": "ブロック"
+    }
+}

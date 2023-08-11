@@ -1,0 +1,155 @@
+{
+  "Loading": {
+    "loading": "cargando..."
+  },
+
+  "Error": {
+    "error": "Algo salió mal"
+  },
+
+  "Profile": {
+    "editProfile": "Editar Perfil",
+    "user": "Usuario",
+    "about": "Acerca De",
+    "aboutDesc": "Cuéntale a la gente sobre ti :)",
+    "education": "Educación",
+    "location": "Ubicación",
+    "gender": "Género",
+    "feedback": "Comentario",
+    "supporters": "Seguidores"
+  },
+
+  "Search": {
+    "placeholder": "Buscar MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Notificación",
+    "notificationText": "despidió tu publicación"
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Crear Publicación",
+    "selfieRecognizable": "Selfie reconocido!",
+    "selfieNotRecognizable": "Procesando tu selfie...",
+    "selfieCategory": "Categoría o tipo de selfie",
+    "selfieSecretMsg": "Escribe tu mensaje secreto..",
+    "receiver": "Nombre de usuario a quien le quieres mostrar el mensaje secreto"
+  },
+
+  "Selpost": {
+    "none": "Nada",
+    "secretMsg": "Mensaje Secreto",
+    "fires": "Incendios"
+  },
+
+  "Comment": {
+    "comments": "Comentarios",
+    "placeholder": "Escribir un comentario",
+    "button": "Comentarios",
+    "error": "Algo salió mal"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Envía tus primeros 2 mensajes para recibir respuesta",
+    "placeholder": "Escribe tu mensaje aquí...",
+    "blocked": "Estás bloqueado por este usuario."
+  },
+
+  "CreateGuess": {
+    "hint": "Introduce cualquier pista relacionada con el título.",
+    "done": "Hecho",
+    "popupMessage": "¡Creado con éxito!"
+  },
+
+  "BrowserPopup": {
+    "heading": "¡Actualizar ahora!",
+    "firstMessage": "La aplicación puede comportarse mal, así que",
+    "secondMessage": "¡Por favor actualice su navegador!",
+    "update": "Actualizar"
+  },
+
+  "GuessCard": {
+    "shareText": "¡Comparte tus selfies con un mensaje secreto!",
+    "placeholder": "Adivina el título de la selfie...",
+    "finishedMsg": "¡No hay suficientes monedas!"
+  },
+
+  "GuessCards": {
+    "title": "Adivinar"
+  },
+
+  "AnswerPopup": {
+    "answer": "",
+    "close": "cerrar"
+  },
+
+  "Collection": {
+    "title": "Selpost Recopilación"
+  },
+
+  "EditProfile": {
+    "title": "Editar perfil",
+    "changePic": "Cambiar foto de perfil",
+    "namePlaceholder": "Nombre",
+    "genderPlaceholder": "Género",
+    "emailPlaceholder": "Dirección de correo electrónico (privado)",
+    "locationPlaceholder": "Ubicación (opcional)",
+    "educationPlaceholder": "Educación (opcional)",
+    "aboutPlaceholder": "Escribir sobre ti mismo",
+    "save": "Guardar"
+  },
+
+  "HintPopup": {
+    "close": "Close"
+  },
+
+  "PassedPopup": {
+    "congrats": "¡Felicidades!",
+    "firstMsg": "Has obtenido",
+    "coins": "monedas",
+    "keep": "¡Continúa haciendo un gran trabajo!",
+    "continue": "Continuar"
+  },
+
+  "BlockPopup": {
+    "block": "Has bloqueado a este usuario correctamente",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Formulario de comentarios",
+    "namePlaceholder": "Su nombre",
+    "emailPlaceholder": "Tu correo electrónico",
+    "message": "Tu mensaje",
+    "submit": "Entregar",
+    "toast": "¡Gracias por enviar sus comentarios!",
+    "header": "Comentario"
+  },
+
+  "DeleteAccount": {
+    "header": "Borrar cuenta",
+    "confirmText": "Confirmar eliminación de cuenta",
+    "deleteText": "Lamentamos que te vayas. Una vez que se elimine su cuenta, todo su contenido desaparecerá de forma permanente, incluido su perfil, sus publicaciones y sus mensajes.",
+    "confirmFirstText": "Para confirmar la eliminación, escriba",
+    "confirmLastText": "abajo:",
+    "confirmBtn": "Confirmar la eliminación",
+    "cancel": "Cancelar",
+    "toast": "¡Su cuenta se eliminó con éxito!"
+  },
+
+  "Settings": {
+    "settings": "Ajustes",
+    "terms": "Términos de servicio",
+    "privacy": "política de privacidad",
+    "about": "Acerca de",
+    "deleteAccount": "Borrar cuenta"
+  },
+  "Sod": {
+    "sod": "Selfie del día",
+    "congrats": "FELICIDADES"
+  },
+  "BlockHeader": {
+    "block": "Bloque"
+  }
+}

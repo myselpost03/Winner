@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Aoboshi+One:regular);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #5271ff;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #c0bdbd;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+$slate-grey: #708090;
+$sky-blue: rgb(116, 192, 252);
+$purple: #b799ff;
+
+//! Font Families
+$gabriela: "gabriela";
+$poppins: "poppins";
+$averia: "averia serif libre";
+$aoboshi: "aoboshi one";
+
+//! Smartphones
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
+
+//! Desktops
+@media screen and (min-width: 768px) {
+  .desktop-card {
+    position: fixed;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: $white;
+    width: 16%;
+    height: auto;
+    max-height: 35%;
+    margin-top: 2%;
+    padding: 8px;
+    border-radius: 8px;
+    overflow-y: auto;
+
+    h1 {
+      font-family: $aoboshi, serif;
+      font-size: 1.3rem;
+      text-align: center;
+      color: rgb(52, 72, 104);
+    }
+
+    .suggestions {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5%;
+    }
+
+    strong.usernames {
+      margin: 0 0 0 1%;
+      font-family: $poppins, serif;
+      font-style: 1.1rem;
+      padding: 3%;
+      width: 55%;
+      font-size: 1.2rem;
+      color: $black;
+    }
+
+    strong.usernames:hover {
+      color: $white;
+      background-color: $royal-blue;
+      transition: 100ms;
+      width: 100%;
+      border-radius: 4px;
+      padding: 0.3rem;
+    }
+
+    button {
+      width: auto;
+      border: none;
+      outline: none;
+      background-color: $royal-blue;
+      color: $white;
+      font-weight: bold;
+      font-family: $poppins, serif;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .desktop-card::-webkit-scrollbar {
+    width: 0px;
+  }
+}

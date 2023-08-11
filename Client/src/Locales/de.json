@@ -1,0 +1,162 @@
+{
+    "Loading": {
+      "loading": "Laden..."
+    },
+  
+    "Error": {
+      "error": "Etwas ist schiefgegangen"
+    },
+  
+    "Profile": {
+      "editProfile": "Profil bearbeiten",
+      "user": "Benutzer",
+      "about": "Über",
+      "aboutDesc": "Erzähle den Leuten etwas über dich :)",
+      "education": "Bildung",
+      "location": "Standort",
+      "gender": "Geschlecht",
+      "feedback": "Feedback",
+      "supporters": "0 Unterstützer"
+    },
+  
+    "Search": {
+      "placeholder": "Suche MySelpost..."
+    },
+  
+    "Notification": {
+      "notificationTitle": "Benachrichtigung",
+      "notificationText": "hat deinen Selpost bewertet."
+    },
+  
+    "CreateSelpost": {
+      "createTitle": "Selpost erstellen",
+      "selfieRecognizable": "Selfie erkannt!",
+      "selfieNotRecognizable": "Verarbeite dein Selfie...",
+      "selfieCategory": "Kategorie oder Art des Selfies",
+      "selfieSecretMsg": "Geheime Nachricht eingeben...",
+      "receiver": "Benutzername, dem du die geheime Nachricht zeigen möchtest"
+    },
+  
+    "Comment": {
+      "comments": "Kommentare",
+      "placeholder": "Schreibe einen Kommentar...",
+      "button": "Kommentieren"
+    },
+  
+    "Chat": {
+      "sendMsgDemo": "Sende deine ersten 2 Nachrichten, um eine Antwort zu erhalten",
+      "placeholder": "Gib hier deine Nachricht ein...",
+      "blocked": "Du wurdest von diesem Benutzer blockiert."
+    },
+  
+    "CreateGuess": {
+      "hint": "Gib einen Hinweis zum Titel ein",
+      "done": "Fertig",
+      "popupMessage": "Erfolgreich erstellt!"
+    },
+  
+    "BrowserPopup": {
+      "heading": "Jetzt aktualisieren!",
+      "firstMessage": "Die Anwendung kann sich seltsam verhalten,",
+      "secondMessage": "Bitte aktualisiere deinen Browser!",
+      "update": "Aktualisieren"
+    },
+  
+    "GuessCard": {
+      "shareText": "Teile deine Selfies mit einer geheimen Nachricht!",
+      "placeholder": "Rate den Selfie-Titel...",
+      "finishedMsg": "Nicht genug Münzen!"
+    },
+  
+    "GuessCards": {
+      "title": "Errate"
+    },
+  
+    "AnswerPopup": {
+      "answer": "Antwort",
+      "close": "Schließen"
+    },
+  
+    "Collection": {
+      "title": "Selpost-Sammlung"
+    },
+  
+    "EditProfile": {
+      "title": "Profil bearbeiten",
+      "changePic": "Profilbild ändern",
+      "namePlaceholder": "Name",
+      "genderPlaceholder": "Geschlecht",
+      "emailPlaceholder": "E-Mail-Adresse (Privat)",
+      "locationPlaceholder": "Standort (optional)",
+      "educationPlaceholder": "Bildung (optional)",
+      "aboutPlaceholder": "Über dich schreiben",
+      "save": "Speichern",
+      "updated": "Profil erfolgreich aktualisiert!"
+    },
+  
+    "HintPopup": {
+      "close": "Schließen"
+    },
+  
+    "PassedPopup": {
+      "congrats": "Herzlichen Glückwunsch!",
+      "firstMsg": "Du hast",
+      "coins": "Münzen",
+      "keep": "Mach weiter so!",
+      "continue": "Weiter"
+    },
+  
+    "BlockPopup": {
+      "block": "Du hast diesen Benutzer erfolgreich blockiert",
+      "ok": "OK"
+    },
+  
+    "Feedback": {
+      "feedback": "Feedback-Formular",
+      "namePlaceholder": "Dein Name",
+      "emailPlaceholder": "Deine E-Mail",
+      "message": "Deine Nachricht",
+      "submit": "Absenden",
+      "toast": "Vielen Dank für dein Feedback!",
+      "header": "Feedback"
+    },
+  
+    "DeleteAccount": {
+      "header": "Konto löschen",
+      "confirmText": "Kontolöschung bestätigen",
+      "deleteText": "Es tut uns leid, dass du gehen möchtest. Sobald dein Konto gelöscht ist, werden alle deine Inhalte dauerhaft gelöscht, einschließlich deines Profils, deiner Selposts und Nachrichten.",
+      "confirmFirstText": "Zur Bestätigung der Löschung gib",
+      "confirmLastText": "unten ein:",
+      "confirmBtn": "Löschung bestätigen",
+      "cancel": "Abbrechen",
+      "toast": "Dein Konto wurde erfolgreich gelöscht!"
+    },
+  
+    "Settings": {
+      "settings": "Einstellungen",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "about": "Über",
+      "deleteAccount": "Konto löschen"
+    },
+  
+    "Selpost": {
+      "secretMsg": "Geheime Nachricht",
+      "fires": "Feuer",
+      "none": "Keine"
+    },
+  
+    "SelpostUpload": {
+      "success": "Selpost erfolgreich hochgeladen!"
+    },
+  
+    "Sod": {
+      "sod": "Selfie des Tages",
+      "congrats": "GLÜCKWUNSCH"
+    },
+  
+    "BlockHeader": {
+      "block": "Blockieren"
+    }
+  }
+  

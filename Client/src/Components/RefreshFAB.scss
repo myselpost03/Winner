@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Aoboshi+One:regular);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #5271ff;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #c0bdbd;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+$slate-grey: #708090;
+$sky-blue: rgb(116, 192, 252);
+$purple: #b799ff;
+
+//! Font Families
+$gabriela: "gabriela";
+$poppins: "poppins";
+$averia: "averia serif libre";
+$aoboshi: "aoboshi one";
+
+//! Smartphones
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .refresh-floating-action-button {
+    position: fixed;
+    margin-top: 80vh;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    transform: scale(0.9);
+    
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

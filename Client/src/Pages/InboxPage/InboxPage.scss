@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #3766f5;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #a8a4a4;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+
+//! Font Families
+$gabriela: "gabriela";
+$poppins: "poppins";
+$averia: "averia serif libre";
+
+//! SMARTPHONES
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .desktop-inbox {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .mobile-inbox {
+    background-color: $light-blue-more;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .chats {
+      margin-top: 20%;
+    }
+  }
+}
+
+//! Desktops
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .mobile-inbox {
+    display: none;
+  }
+
+  .desktop-inbox {
+    background-color: $light-blue-more;
+    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .chats {
+      height: 390px;
+      max-height: 400px;
+      background-color: $white;
+      padding: 10px;
+      transform: scale(1.2);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      overflow-y: auto;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .mobile-inbox {
+    display: none;
+  }
+
+  .desktop-inbox {
+    background-color: $light-blue-more;
+    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .chats {
+      height: 400px;
+      max-height: 400px;
+      background-color: $white;
+      padding: 10px;
+      transform: scale(1.5);
+      border-radius: 15px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "Loading": {
+    "loading": "Chargement en cours..."
+  },
+  "Error": {
+    "error": "Quelque chose s'est mal passé"
+  },
+  "Profile": {
+    "editProfile": "Modifier le profil",
+    "user": "Utilisateur",
+    "about": "À propos",
+    "aboutDesc": "Parlez de vous :)",
+    "education": "Éducation",
+    "location": "Lieu",
+    "gender": "Genre",
+    "feedback": "Retour d'information",
+    "supporters": "Supporters"
+  },
+  "Search": {
+    "placeholder": "Rechercher MySelpost..."
+  },
+  "Notification": {
+    "notificationTitle": "Notification",
+    "notificationText": "a aimé votre selpost."
+  },
+  "CreateSelpost": {
+    "createTitle": "Créer un Selpost",
+    "selfieRecognizable": "Selfie reconnu !",
+    "selfieNotRecognizable": "Traitement de votre selfie en cours...",
+    "selfieCategory": "Catégorie ou type de selfie",
+    "selfieSecretMsg": "Saisissez votre message secret...",
+    "receiver": "Nom d'utilisateur à qui vous voulez montrer le message secret"
+  },
+  "Selpost": {
+    "none": "Aucun",
+    "secretMsg": "Message secret",
+    "fires": "J'aime"
+  },
+  "Comment": {
+    "comments": "Commentaires",
+    "placeholder": "Écrire un commentaire...",
+    "button": "Commenter"
+  },
+  "Chat": {
+    "sendMsgDemo": "Envoyez vos 2 premiers messages pour recevoir une réponse",
+    "placeholder": "Tapez votre message ici...",
+    "blocked": "Vous êtes bloqué par cet utilisateur."
+  },
+  "CreateGuess": {
+    "hint": "Entrez un indice lié au titre",
+    "done": "Terminé",
+    "popupMessage": "Créé avec succès !"
+  },
+  "BrowserPopup": {
+    "heading": "Mettez à jour maintenant !",
+    "firstMessage": "L'application peut se comporter de manière incorrecte,",
+    "secondMessage": "Veuillez mettre à jour votre navigateur !",
+    "update": "Mettre à jour"
+  },
+  "GuessCard": {
+    "shareText": "Partagez vos selfies avec un message secret !",
+    "placeholder": "Devinez le titre du selfie...",
+    "finishedMsg": "Pas assez de pièces !"
+  },
+  "GuessCards": {
+    "title": "Deviner"
+  },
+  "AnswerPopup": {
+    "answer": "Réponse",
+    "close": "Fermer"
+  },
+  "Collection": {
+    "title": "Collection de Selposts"
+  },
+  "EditProfile": {
+    "title": "Modifier le profil",
+    "changePic": "Changer la photo de profil",
+    "namePlaceholder": "Nom",
+    "genderPlaceholder": "Genre",
+    "emailPlaceholder": "Adresse e-mail (privée)",
+    "locationPlaceholder": "Lieu (facultatif)",
+    "educationPlaceholder": "Éducation (facultatif)",
+    "aboutPlaceholder": "Parlez de vous",
+    "save": "Enregistrer",
+    "updated": "Profil mis à jour avec succès !"
+  },
+  "HintPopup": {
+    "close": "Fermer"
+  },
+  "PassedPopup": {
+    "congrats": "Félicitations !",
+    "firstMsg": "Vous avez gagné",
+    "coins": "pièces",
+    "keep": "Continuez le bon travail !",
+    "continue": "Continuer"
+  },
+
+  "BlockPopup": {
+    "block": "Vous avez bloqué cet utilisateur avec succès",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Formulaire de retour",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "message": "Votre message",
+    "submit": "Soumettre",
+    "toast": "Merci d'avoir soumis votre retour !",
+    "header": "Retour"
+  },
+
+  "DeleteAccount": {
+    "header": "Supprimer le compte",
+    "confirmText": "Confirmer la suppression du compte",
+    "deleteText": "Nous sommes désolés de vous voir partir. Une fois votre compte supprimé, tous vos contenus seront définitivement perdus, y compris votre profil, vos publications et vos messages.",
+    "confirmFirstText": "Pour confirmer la suppression, saisissez",
+    "confirmLastText": "ci-dessous :",
+    "confirmBtn": "Confirmer la suppression",
+    "cancel": "Annuler",
+    "toast": "Votre compte a été supprimé avec succès !"
+  },
+
+  "Settings": {
+    "settings": "Paramètres",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "about": "À propos",
+    "deleteAccount": "Supprimer le compte"
+  },
+  "Sod": {
+    "sod": "Selfie du jour",
+    "congrats": "FÉLICITATIONS"
+  },
+  "BlockHeader": {
+    "block": "Bloc"
+  }
+}

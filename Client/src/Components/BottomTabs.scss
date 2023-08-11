@@ -1,0 +1,38 @@
+//! Colors
+$purple: #c8d5f1;
+$blue: #3766f5;
+$white: #fff;
+
+.bottom-tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 0 0 0.4rem 0;
+  background-color: $blue;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: 1;
+}
+
+.tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: $purple;
+  margin: 0.3rem 0 0 0;
+}
+
+.tab.active {
+  color: $white;
+}
+
+.tab span {
+  margin-top: 5px;
+}
+

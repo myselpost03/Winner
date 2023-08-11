@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .loading-spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+
+  .loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #ccc;
+    border-top-color: #3766f5;
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+/* Media Query for Responsive Design */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border-width: 3px;
+  }
+}

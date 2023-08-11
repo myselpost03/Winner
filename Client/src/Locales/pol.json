@@ -1,0 +1,157 @@
+{
+  "Loading": {
+    "loading": "Ładowanie..."
+  },
+
+  "Error": {
+    "error": "Wystąpił błąd"
+  },
+
+  "Profile": {
+    "editProfile": "Edytuj profil",
+    "user": "Użytkownik",
+    "about": "O mnie",
+    "aboutDesc": "Opowiedz coś o sobie :)",
+    "education": "Edukacja",
+    "location": "Lokalizacja",
+    "gender": "Płeć",
+    "feedback": "Opinie",
+    "supporters": "zwolennicy"
+  },
+
+  "Search": {
+    "placeholder": "Wyszukaj w MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Powiadomienie",
+    "notificationText": "uruchomił(a) Twój selpost."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Stwórz selpost",
+    "selfieRecognizable": "Rozpoznano selfie!",
+    "selfieNotRecognizable": "Przetwarzanie Twojego selfie...",
+    "selfieCategory": "Kategoria lub rodzaj selfie",
+    "selfieSecretMsg": "Wpisz tajną wiadomość...",
+    "receiver": "Nazwa użytkownika, któremu chcesz pokazać tajną wiadomość"
+  },
+
+  "Selpost": {
+    "none": "Brak",
+    "secretMsg": "Tajna wiadomość",
+    "fires": "Ognie"
+  },
+
+  "Comment": {
+    "comments": "Komentarze",
+    "placeholder": "Napisz komentarz...",
+    "button": "Komentuj"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Aby otrzymać odpowiedź, wyślij 2 wiadomości",
+    "placeholder": "Wpisz swoją wiadomość tutaj...",
+    "blocked": "Jesteś zablokowany przez tego użytkownika."
+  },
+
+  "CreateGuess": {
+    "hint": "Wpisz dowolny wskazówkę związane z tytułem",
+    "done": "Gotowe",
+    "popupMessage": "Pomyślnie utworzono!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Zaktualizuj teraz!",
+    "firstMessage": "Aplikacja może działać nieprawidłowo, dlatego",
+    "secondMessage": "Zaktualizuj swoją przeglądarkę!",
+    "update": "Aktualizuj"
+  },
+
+  "GuessCard": {
+    "shareText": "Podziel się swoimi selfie z tajną wiadomością!",
+    "placeholder": "Zgadnij tytuł selfie...",
+    "finishedMsg": "Niewystarczająca liczba monet!"
+  },
+
+  "GuessCards": {
+    "title": "zgadywać"
+  },
+
+  "AnswerPopup": {
+    "answer": "Odpowiedź",
+    "close": "Zamknij"
+  },
+
+  "Collection": {
+    "title": "Kolekcja selpostów"
+  },
+
+  "EditProfile": {
+    "title": "Edytuj profil",
+    "changePic": "Zmień zdjęcie profilowe",
+    "namePlaceholder": "Imię",
+    "genderPlaceholder": "Płeć",
+    "emailPlaceholder": "Adres e-mail (Prywatny)",
+    "locationPlaceholder": "Lokalizacja (opcjonalne)",
+    "educationPlaceholder": "Edukacja (opcjonalne)",
+    "aboutPlaceholder": "Opowiedz o sobie",
+    "save": "Zapisz",
+    "updated": "Pomyślnie zaktualizowano profil!"
+  },
+
+  "HintPopup": {
+    "close": "Zamknij"
+  },
+
+  "PassedPopup": {
+    "congrats": "Gratulacje!",
+    "firstMsg": "Zdobyłeś(aś)",
+    "coins": "monet",
+    "keep": "Tak trzymaj!",
+    "continue": "Kontynuuj"
+  },
+
+  "BlockPopup": {
+    "block": "Pomyślnie zablokowano tego użytkownika",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Formularz opinii",
+    "namePlaceholder": "Twoje imię",
+    "emailPlaceholder": "Twój email",
+    "message": "Twoja wiadomość",
+    "submit": "Wyślij",
+    "toast": "Dziękujemy za przesłanie opinii!",
+    "header": "Opinia"
+  },
+
+  "DeleteAccount": {
+    "header": "Usuń konto",
+    "confirmText": "Potwierdź usunięcie konta",
+    "deleteText": "Przykro nam, że odchodzisz. Po usunięciu konta wszystkie Twoje treści zostaną trwale usunięte, w tym profil, własne posty i wiadomości.",
+    "confirmFirstText": "Aby potwierdzić usunięcie, wpisz",
+    "confirmLastText": "poniżej:",
+    "confirmBtn": "Potwierdź usunięcie",
+    "cancel": "Anuluj",
+    "toast": "Twoje konto zostało pomyślnie usunięte!"
+  },
+
+  "Settings": {
+    "settings": "Ustawienia",
+    "terms": "Warunki korzystania",
+    "privacy": "Polityka prywatności",
+    "about": "O nas",
+    "deleteAccount": "Usuń konto"
+  },
+  "Sod": {
+    "sod": "Selfie Dnia",
+    "congrats": "GRATULACJE"
+  },
+  "BlockHeader": {
+    "block": "Blok"
+    }
+    
+    
+}

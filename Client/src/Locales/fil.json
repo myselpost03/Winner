@@ -1,0 +1,152 @@
+{
+  "Loading": {
+    "loading": "Loading..."
+  },
+
+  "Error": {
+    "error": "Mayroong nangyaring kamalian"
+  },
+
+  "Profile": {
+    "editProfile": "I-edit ang Profile",
+    "user": "User",
+    "about": "Tungkol sa Iyo",
+    "aboutDesc": "Ipagkwento ang tungkol sa iyong sarili :)",
+    "education": "Edukasyon",
+    "location": "Lokasyon",
+    "gender": "Kasarian",
+    "feedback": "Feedback",
+    "supporters": "Mga Tagasuporta"
+  },
+
+  "Search": {
+    "placeholder": "Maghanap ng MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Notipikasyon",
+    "notificationText": "sinindihan ang iyong selpost."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Lumikha ng Selpost",
+    "selfieRecognizable": "Nakikilalang Selfie!",
+    "selfieNotRecognizable": "Inaayos ang iyong selfie...",
+    "selfieCategory": "Kategorya o uri ng selfie",
+    "selfieSecretMsg": "Magtype ng iyong lihim na mensahe...",
+    "receiver": "Username ng taong nais mong ipakita ang lihim na mensahe"
+  },
+
+  "Selpost": {
+    "none": "Wala",
+    "secretMsg": "Lihim na Mensahe",
+    "fires": "Mga Sinindihan"
+  },
+
+  "Comment": {
+    "comments": "Mga Komento",
+    "placeholder": "Sumulat ng komento...",
+    "button": "Magkomento"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Ipadala ang iyong unang 2 mensahe para makakuha ng sagot",
+    "placeholder": "I-type ang iyong mensahe dito...",
+    "blocked": "Binloke ka ng user na ito."
+  },
+
+  "CreateGuess": {
+    "hint": "Maglagay ng anumang clue na nauugnay sa pamagat",
+    "done": "Tapos na",
+    "popupMessage": "Matagumpay na nilikha!"
+  },
+
+  "BrowserPopup": {
+    "heading": "I-Update na!",
+    "firstMessage": "Maaaring magkaroon ng problema ang aplikasyon kaya",
+    "secondMessage": "Mangyaring i-update ang iyong browser!",
+    "update": "I-Update"
+  },
+
+  "GuessCard": {
+    "shareText": "Ibahagi ang iyong mga selfie na may lihim na mensahe!",
+    "placeholder": "Hulaan ang pamagat ng selfie...",
+    "finishedMsg": "Hindi sapat na Coins!"
+  },
+
+  "AnswerPopup": {
+    "answer": "Kasagutan",
+    "close": "Isara"
+  },
+
+  "Collection": {
+    "title": "Koleksyon ng Selpost"
+  },
+
+  "EditProfile": {
+    "title": "I-edit ang Profile",
+    "changePic": "Palitan ang larawan ng profile",
+    "namePlaceholder": "Pangalan",
+    "genderPlaceholder": "Kasarian",
+    "emailPlaceholder": "Email Address (Pribado)",
+    "locationPlaceholder": "Lokasyon (opsyonal)",
+    "educationPlaceholder": "Edukasyon (opsyonal)",
+    "aboutPlaceholder": "Sumulat tungkol sa iyong sarili",
+    "save": "I-save",
+    "updated": "Matagumpay na na-update ang profile!"
+  },
+
+  "HintPopup": {
+    "close": "Isara"
+  },
+
+  "PassedPopup": {
+    "congrats": "Pagbati!",
+    "firstMsg": "Nakakuha ka ng",
+    "coins": "coins",
+    "keep": "Magpatuloy sa magandang trabaho!",
+    "continue": "Magpatuloy"
+  },
+
+  "BlockPopup": {
+    "block": "Matagumpay mong na-block ang user na ito",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Form ng Feedback",
+    "namePlaceholder": "Iyong Pangalan",
+    "emailPlaceholder": "Iyong Email",
+    "message": "Iyong Mensahe",
+    "submit": "Ipasa",
+    "toast": "Salamat sa pagpapasa ng iyong feedback!",
+    "header": "Feedback"
+  },
+
+  "DeleteAccount": {
+    "header": "Burahin ang Account",
+    "confirmText": "Kumpirmahin ang Pagbura ng Account",
+    "deleteText": "Paumanhin sa iyong pag-alis. Kapag binura ang iyong account, ang lahat ng iyong nilalaman ay permanente nang mawawala, kasama na ang iyong profile, mga self-post, at mga mensahe.",
+    "confirmFirstText": "Upang kumpirmahin ang pagbura, ipasok ang",
+    "confirmLastText": "sa ibaba:",
+    "confirmBtn": "Kumpirmahin ang pagbura",
+    "cancel": " kanselahin",
+    "toast": "Matagumpay na binura ang iyong account!"
+  },
+
+  "Settings": {
+    "settings": "Mga Setting",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "privacy": "Patakaran sa Privacy",
+    "about": "Tungkol sa Amin",
+    "deleteAccount": "Burahin ang Account"
+  },
+  "Sod": {
+    "sod": "Selfie ng Araw",
+    "congrats": "CONGRATS"
+  },
+
+  "BlockHeader": {
+    "block": "Bloke"
+  }
+}

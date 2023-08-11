@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gabriela:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$royal-blue: #3766f5;
+$royal-blue-light: #c7d0ec;
+$light-blue: #ecf2ff;
+$light-blue-more: #eceff9;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+$black: #000;
+$grey: #a8a4a4;
+$light-grey: #ccc9c9;
+$light-white-more: #f1eeee;
+$red: #ff6969;
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+    padding: 20% 0 0 0;
+    width: 100vw;
+
+    .terms-link {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      border-bottom: 1px solid #a8a4a4;
+      padding: 2rem 0 1rem 0.3rem;
+    }
+
+    .privacy-policy-link {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      border-bottom: 1px solid #a8a4a4;
+      padding: 2rem 0 1rem 0.3rem;
+      color: $black;
+    }
+
+    .about-link {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      border-bottom: 1px solid #a8a4a4;
+      padding: 2rem 0 1rem 0.3rem;
+    }
+
+    .contact-us-link {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      border-bottom: 1px solid #a8a4a4;
+
+      padding: 2rem 0 1rem 0.3rem;
+    }
+
+    .delete-account-link {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      border-bottom: 1px solid #a8a4a4;
+      padding: 2rem 0 1rem 0.3rem;
+    }
+
+    strong.terms {
+      color: $black;
+      font-family: "poppins", serif;
+    }
+
+    strong.privacy-policy {
+      color: $black;
+      font-family: "poppins", serif;
+    }
+    strong.about {
+      color: $black;
+      font-family: "poppins", serif;
+    }
+
+    strong.contact-us {
+      color: $black;
+      font-family: "poppins", serif;
+    }
+
+    strong.delete-account {
+      color: $black;
+      font-family: "poppins", serif;
+    }
+
+    .icon {
+      text-decoration: none;
+      color: $black;
+      padding: 0 0.5rem 0 0;
+    }
+  }
+}

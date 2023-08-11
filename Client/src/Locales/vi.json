@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "Đang tải..."
+  },
+
+  "Error": {
+    "error": "Đã xảy ra lỗi"
+  },
+
+  "Profile": {
+    "editProfile": "Chỉnh sửa Hồ sơ",
+    "user": "Người dùng",
+    "about": "Về",
+    "aboutDesc": "Kể về bản thân bạn:)",
+    "education": "Học vấn",
+    "location": "Địa điểm",
+    "gender": "Giới tính",
+    "feedback": "Phản hồi",
+    "supporters": "người ủng hộ"
+  },
+
+  "Search": {
+    "placeholder": "Tìm kiếm MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Thông báo",
+    "notificationText": "đã gửi selpost của bạn."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Tạo Selpost",
+    "selfieRecognizable": "Nhận dạng Selfie!",
+    "selfieNotRecognizable": "Đang xử lý selfie của bạn...",
+    "selfieCategory": "Danh mục hoặc loại selfie",
+    "selfieSecretMsg": "Nhập tin nhắn bí mật của bạn..",
+    "receiver": "Tên người dùng mà bạn muốn hiển thị tin nhắn bí mật"
+  },
+
+  "Selpost": {
+    "none": "Không có",
+    "category": "{{category}}",
+    "secretMsg": "Tin nhắn bí mật",
+    "fires": "Ngọn lửa"
+  },
+
+  "Comment": {
+    "comments": "Bình luận",
+    "placeholder": "Viết bình luận...",
+    "button": "Bình luận"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Gửi 2 tin nhắn đầu tiên để nhận phản hồi",
+    "placeholder": "Nhập tin nhắn của bạn...",
+    "blocked": "Bạn bị chặn bởi người dùng này."
+  },
+
+  "CreateGuess": {
+    "hint": "Nhập bất kỳ gợi ý nào liên quan đến tiêu đề",
+    "done": "Hoàn thành",
+    "popupMessage": "Tạo thành công!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Cập nhật ngay!",
+    "firstMessage": "Ứng dụng có thể hoạt động không ổn định nên",
+    "secondMessage": "Vui lòng cập nhật trình duyệt của bạn!",
+    "update": "Cập nhật"
+  },
+
+  "GuessCard": {
+    "shareText": "Chia sẻ các bức ảnh selfie của bạn với tin nhắn bí mật!",
+    "placeholder": "Đoán tiêu đề của bức ảnh...",
+    "finishedMsg": "Không đủ Xu!"
+  },
+
+  "GuessCards": {
+    "title": "đoán"
+  },
+
+  "AnswerPopup": {
+    "answer": "Câu trả lời",
+    "close": "Đóng"
+  },
+
+  "Collection": {
+    "title": "Bộ sưu tập Selpost"
+  },
+
+  "EditProfile": {
+    "title": "Chỉnh sửa Hồ sơ",
+    "changePic": "Thay đổi ảnh đại diện",
+    "namePlaceholder": "Tên",
+    "genderPlaceholder": "Giới tính",
+    "emailPlaceholder": "Địa chỉ Email (Riêng tư)",
+    "locationPlaceholder": "Địa điểm (tùy chọn)",
+    "educationPlaceholder": "Học vấn (tùy chọn)",
+    "aboutPlaceholder": "Viết về bản thân",
+    "save": "Lưu",
+    "updated": "Hồ sơ đã được cập nhật thành công!"
+  },
+
+  "HintPopup": {
+    "close": "Đóng"
+  },
+
+  "PassedPopup": {
+    "congrats": "Xin chúc mừng!",
+    "firstMsg": "Bạn đã kiếm được",
+    "coins": "xu",
+    "keep": "Tiếp tục công việc tốt!",
+    "continue": "Tiếp tục"
+  },
+
+  "BlockPopup": {
+    "block": "Bạn đã chặn người dùng này thành công",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Biểu mẫu Phản hồi",
+    "namePlaceholder": "Tên của bạn",
+    "emailPlaceholder": "Email của bạn",
+    "message": "Tin nhắn của bạn",
+    "submit": "Gửi",
+    "toast": "Cảm ơn bạn đã gửi phản hồi!",
+    "header": "Phản hồi"
+  },
+
+  "DeleteAccount": {
+    "header": "Xóa tài khoản",
+    "confirmText": "Xác nhận Xóa tài khoản",
+    "deleteText": "Chúng tôi rất tiếc khi bạn ra đi. Sau khi xóa tài khoản của bạn, tất cả nội dung của bạn sẽ bị xóa vĩnh viễn, bao gồm hồ sơ, bài đăng của bạn và tin nhắn.",
+    "confirmFirstText": "Để xác nhận xóa, nhập",
+    "confirmLastText": "bên dưới:",
+    "confirmBtn": "Xác nhận xóa",
+    "cancel": "Hủy",
+    "toast": "Tài khoản của bạn đã được xóa thành công!"
+  },
+
+  "Settings": {
+    "settings": "Cài đặt",
+    "terms": "Điều khoản Dịch vụ",
+    "privacy": "Chính sách Riêng tư",
+    "about": "Về chúng tôi",
+    "deleteAccount": "Xóa tài khoản"
+  },
+  "Sod": {
+    "sod": "Ảnh tự sướng của ngày",
+    "congrats": "XIN CHÚC MỪNG"
+  },
+  "BlockHeader": {
+    "block": "Khối"
+    }
+}

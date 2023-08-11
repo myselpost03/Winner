@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,300italic,regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//! Colors
+$blue: #0096d8;
+$light-blue-more: #f0f1f3;
+$white: #fff;
+$light-white: #f5f5f5;
+$green: #03c988;
+
+//! SMARTPHONES
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .desktop-upload {
+    display: none;
+  }
+
+  .mobile-upload {
+    display: flex;
+    flex-direction: column;
+    margin: -18% 0 0 0;
+    width: 100%;
+    min-width: 97%;
+  }
+
+  .select-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .select-container img {
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+  }
+
+  .select-container strong {
+    font-family: "poppins", serif;
+  }
+
+  .select-container .selected-image img {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    margin: 0 0 0 11rem;
+  }
+
+  .mobile-upload .selpost-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem 0 0 0.3rem;
+    position: fixed;
+  }
+
+  .selpost-inputs input:first-child {
+    width: 12rem;
+    border: none;
+    background-color: $light-white;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin: 0 0 0.3rem 0;
+  }
+
+  .selpost-inputs input::placeholder {
+    font-family: "poppins", serif;
+  }
+
+  .selpost-inputs input {
+    width: 12rem;
+    height: 4rem;
+    resize: none;
+    border: none;
+    background-color: $light-white;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin: 0.4rem 0 0.3rem 0;
+  }
+
+  .selpost-inputs textarea::placeholder {
+    font-family: "poppins", serif;
+  }
+
+  .selpost-inputs input:nth-child(3) {
+    width: 13rem;
+    height: 4rem;
+    border: none;
+    background-color: $light-white;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin: 0.5rem 0 0.3rem 0;
+  }
+
+  .selpost-inputs input:nth-child(3)::placeholder {
+    white-space: pre-line;
+  }
+
+  .selpost-inputs .btn-and-text {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .selpost-inputs .btn-and-text button {
+    margin: 0 0 0 12rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    color: $white;
+    background-color: $green;
+    padding: 0.3rem;
+    width: 5rem;
+    font-family: "poppins", serif;
+    font-weight: bold;
+  }
+
+  .btn-and-text .disable-button {
+    opacity: 0.5;
+  }
+
+  .btn-and-text .enable-button {
+    opacity: 1;
+  }
+
+  .selpost-inputs .btn-and-text span {
+    margin: 1rem 0 0 0;
+    font-family: "averia serif libre", serif;
+  }
+
+  .selpost-inputs strong {
+    margin: 0 0 0 0;
+  }
+
+  .selected-image .processing {
+    font-size: 1rem;
+    margin: 0 0 0 11rem;
+    word-wrap: break-word;
+    color: $blue;
+  }
+
+  .selected-image .processing-success {
+    font-size: 1rem;
+    margin: 0 0 0 11rem;
+    word-wrap: break-word;
+    color: $green;
+  }
+}
+
+//! Desktops
+@media screen and (min-width: 768px) and (max-width: 3084px) {
+  .mobile-upload {
+    display: none;
+  }
+
+  .desktop-upload {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop-select-container {
+    display: flex;
+    flex-direction: row;
+    margin: -5rem 0 0 0.2rem;
+  }
+
+  .desktop-select-container img {
+    width: 5%;
+    height: 5%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .desktop-select-container .desktop-selected-image img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    margin: 0 0 0 30rem;
+    position: fixed;
+  }
+
+  .desktop-select-container .desktop-selected-image {
+    margin: 1rem 0 0 10rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop-select-container .desktop-selected-image p:first-child {
+    margin-left: 10rem;
+    color: $green;
+    font-family: "poppins", serif;
+  }
+
+  .desktop-select-container .desktop-selected-image p:nth-child(2) {
+    margin-left: 10rem;
+    color: $green;
+    font-family: "poppins", serif;
+  }
+
+  .desktop-upload .desktop-selpost-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0 0 1rem;
+  }
+
+  .desktop-selpost-inputs input {
+    border: none;
+    outline: none;
+    background-color: $light-blue-more;
+    border-radius: 1rem;
+    padding: 0.9rem;
+    width: 15rem;
+  }
+
+  .desktop-selpost-inputs textarea:nth-child(2) {
+    border: none;
+    outline: none;
+    width: 15rem;
+    max-width: 15rem;
+    overflow-wrap: break-word;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: $light-blue-more;
+    font-family: "poppins", serif;
+    resize: none;
+  }
+
+  .desktop-selpost-inputs textarea::placeholder {
+    font-size: 0.7rem;
+    font-family: "poppins", serif;
+  }
+
+  .desktop-selpost-inputs textarea {
+    border: none;
+    outline: none;
+    background-color: $light-blue-more;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    margin: 1rem 0 0 0;
+    height: 4.2rem;
+    resize: none;
+    font-family: "poppins", serif;
+  }
+
+  .desktop-upload .btn-and-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+
+  .desktop-upload .btn-and-text span {
+    font-family: "poppins", serif;
+  }
+
+  .desktop-upload .btn-and-text button {
+    border: none;
+    outline: none;
+    background-color: $green;
+    margin: -1rem 0 0 15rem;
+    width: 5rem;
+    color: $white;
+    font-family: "poppins", serif;
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+  }
+
+  .desktop-upload .btn-and-text .disable-button {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .desktop-upload .btn-and-text .enable-button {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .desktop-upload strong {
+    cursor: pointer;
+    margin: 0.5rem 0 0 1.3rem;
+    width: 3rem;
+  }
+}

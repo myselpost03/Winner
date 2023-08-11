@@ -1,0 +1,156 @@
+{
+  "Loading": {
+    "loading": "Загрузка..."
+  },
+
+  "Error": {
+    "error": "Что-то пошло не так"
+  },
+
+  "Profile": {
+    "editProfile": "Редактировать профиль",
+    "user": "Пользователь",
+    "about": "О себе",
+    "aboutDesc": "Расскажите о себе :)",
+    "education": "Образование",
+    "location": "Местоположение",
+    "gender": "Пол",
+    "feedback": "Обратная связь",
+    "supporters": "поддерживающие"
+  },
+
+  "Search": {
+    "placeholder": "Поиск MySelpost..."
+  },
+
+  "Notification": {
+    "notificationTitle": "Уведомление",
+    "notificationText": "разместил ваш selpost."
+  },
+
+  "CreateSelpost": {
+    "createTitle": "Создать Selpost",
+    "selfieRecognizable": "Селфи распознано!",
+    "selfieNotRecognizable": "Обработка вашего селфи...",
+    "selfieCategory": "Категория или тип селфи",
+    "selfieSecretMsg": "Введите секретное сообщение...",
+    "receiver": "Имя пользователя, которому вы хотите показать секретное сообщение"
+  },
+
+  "Selpost": {
+    "none": "Нет",
+    "category": "{{category}}",
+    "secretMsg": "Секретное сообщение",
+    "fires": "Оценки"
+  },
+
+  "Comment": {
+    "comments": "Комментарии",
+    "placeholder": "Напишите комментарий...",
+    "button": "Комментировать"
+  },
+
+  "Chat": {
+    "sendMsgDemo": "Отправьте первые 2 сообщения, чтобы получить ответ",
+    "placeholder": "Введите ваше сообщение здесь...",
+    "blocked": "Вы заблокированы этим пользователем."
+  },
+
+  "CreateGuess": {
+    "hint": "Введите любую подсказку, связанную с заголовком",
+    "done": "Готово",
+    "popupMessage": "Успешно создано!"
+  },
+
+  "BrowserPopup": {
+    "heading": "Обновитесь сейчас!",
+    "firstMessage": "Приложение может работать неправильно,",
+    "secondMessage": "Пожалуйста, обновите ваш браузер!",
+    "update": "Обновить"
+  },
+
+  "GuessCard": {
+    "shareText": "Поделитесь своими селфи с секретным сообщением!",
+    "placeholder": "Угадайте заголовок селфи...",
+    "finishedMsg": "Недостаточно монет!"
+  },
+
+  "GuessCards": {
+    "title": "угадать"
+  },
+
+  "AnswerPopup": {
+    "answer": "Ответ",
+    "close": "Закрыть"
+  },
+
+  "Collection": {
+    "title": "Коллекция Selpost"
+  },
+
+  "EditProfile": {
+    "title": "Редактировать профиль",
+    "changePic": "Изменить фотографию профиля",
+    "namePlaceholder": "Имя",
+    "genderPlaceholder": "Пол",
+    "emailPlaceholder": "Адрес электронной почты (личный)",
+    "locationPlaceholder": "Местоположение (необязательно)",
+    "educationPlaceholder": "Образование (необязательно)",
+    "aboutPlaceholder": "Расскажите о себe",
+    "save": "Сохранить",
+    "updated": "Профиль успешно обновлен!"
+  },
+
+  "HintPopup": {
+    "close": "Закрыть"
+  },
+
+  "PassedPopup": {
+    "congrats": "Поздравляем!",
+    "firstMsg": "Вы заработали",
+    "coins": "монет",
+    "keep": "Продолжайте в том же духе!",
+    "continue": "Продолжить"
+  },
+
+  "BlockPopup": {
+    "block": "Вы успешно заблокировали этого пользователя",
+    "ok": "OK"
+  },
+
+  "Feedback": {
+    "feedback": "Форма обратной связи",
+    "namePlaceholder": "Ваше имя",
+    "emailPlaceholder": "Ваш email",
+    "message": "Ваше сообщение",
+    "submit": "Отправить",
+    "toast": "Спасибо за отправку отзыва!",
+    "header": "Обратная связь"
+  },
+
+  "DeleteAccount": {
+    "header": "Удалить аккаунт",
+    "confirmText": "Подтвердить удаление аккаунта",
+    "deleteText": "Мы сожалеем о вашем уходе. После удаления аккаунта все ваши данные будут безвозвратно удалены, включая профиль, собственные публикации и сообщения.",
+    "confirmFirstText": "Для подтверждения удаления введите",
+    "confirmLastText": "ниже:",
+    "confirmBtn": "Подтвердить удаление",
+    "cancel": "Отмена",
+    "toast": "Ваш аккаунт успешно удален!"
+  },
+
+  "Settings": {
+    "settings": "Настройки",
+    "terms": "Условия использования",
+    "privacy": "Политика конфиденциальности",
+    "about": "О нас",
+    "deleteAccount": "Удалить аккаунт"
+  },
+  "Sod": {
+    "sod": "Селфи дня",
+    "congrats": "ПОЗДРАВЛЯЕМ"
+  },
+  "BlockHeader": {
+    "block": "Блок"
+    }
+}
