@@ -51,7 +51,7 @@ const RegisterPage = () => {
     try {
       setSigningUp(true);
       axios
-        .post("https://cloud-server.cyclic.app/api/auth/register", {
+        .post("https://winner.adaptable.app/api/auth/register", {
           username,
           password,
         })

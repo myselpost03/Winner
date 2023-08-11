@@ -10,7 +10,7 @@ export const AuthContextProvider = ({ children }) => {
 
   const login = async (loginUsername, loginPassword) => {
     const res = await axios.post(
-      "https://cloud-server.cyclic.app/api/auth/login",
+      "https://winner.adaptable.app/api/auth/login",
       { username: loginUsername, password: loginPassword },
       { withCredentials: true }
     );
@@ -24,7 +24,7 @@ export const AuthContextProvider = ({ children }) => {
 
   const logout = async () => {
     try {
-      await axios.post("https://cloud-server.cyclic.app/api/auth/logout", null, {
+      await axios.post("https://winner.adaptable.app/api/auth/logout", null, {
         withCredentials: true,
       });
 

@@ -4,7 +4,7 @@ const storedToken = localStorage.getItem("accessToken");
 const accessToken = JSON.parse(storedToken); 
 
 export const makeRequest = axios.create({
-  baseURL: "https://cloud-server.cyclic.app/api",
+  baseURL: "https://winner.adaptable.app/api",
   withCredentials: true,
   headers: {
     Authorization: `Bearer ${accessToken}`,

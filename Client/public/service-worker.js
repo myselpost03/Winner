@@ -150,9 +150,9 @@ self.addEventListener("pushsubscriptionchange", async (event) => {
 
   const updateSubscriptions = async () => {
     await Promise.all([
-      updateSubscription("http://localhost:5000/api/fireNotifications/update-subscription"),
-      updateSubscription("http://localhost:5000/api/notifications/update-msg-subscription"),
-      updateSubscription("http://localhost:5000/api/userlist/update-subscription"),
+      updateSubscription("https://winner.adaptable.app/api/fireNotifications/update-subscription"),
+      updateSubscription("https://winner.adaptable.app/api/notifications/update-msg-subscription"),
+      updateSubscription("https://winner.adaptable.app/api/userlist/update-subscription"),
     ]);
   };
 
