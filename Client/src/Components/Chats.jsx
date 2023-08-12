@@ -11,7 +11,14 @@ function Chats() {
     () =>
       makeRequest.get("/userlist/users").then((res) => {
         return res.data;
-      })
+      }),
+    {
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
+    }
   );
 
   if (isLoading) {

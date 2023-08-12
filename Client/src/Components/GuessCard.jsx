@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { RWebShare } from "react-web-share";
 import { AuthContext } from "../Context/authContext";
 import { makeRequest } from "../axios";
@@ -28,6 +28,8 @@ const GuessCard = ({ cards }) => {
   const [isDisabled, setIsDisabled] = useState(false);
 
   const { currentUser } = useContext(AuthContext);
+
+  const queryClient = useQueryClient();
 
   const { t } = useTranslation();
 
@@ -82,7 +84,8 @@ const GuessCard = ({ cards }) => {
 
     if (lowercaseValue === currentCardItem.title) {
       const updatedNumber = number + 10;
-
+      refetch();
+      queryClient.invalidateQueries("coins");
       makeRequest
         .put("/guesses/coins", {
           id: currentUser["user"].id,
@@ -120,6 +123,9 @@ const GuessCard = ({ cards }) => {
         setShowAnswerPopup(false);
         setShowFinishedPopup(true);
       }
+
+      refetch();
+      queryClient.invalidateQueries("coins");
     } catch (err) {
       console.log("Error occured showing answer popop in guess card", err);
     }
@@ -148,6 +154,8 @@ const GuessCard = ({ cards }) => {
         setShowPopup(false);
         setShowFinishedPopup(true);
       }
+      refetch();
+      queryClient.invalidateQueries("coins");
     } catch (err) {
       console.log("Error occured showing hint popup in guess card", err);
     }
@@ -163,6 +171,8 @@ const GuessCard = ({ cards }) => {
             coins: updatedNumber,
           });
           setNumber(updatedNumber);
+          refetch();
+          queryClient.invalidateQueries("coins");
         } catch (error) {
           console.error("Error updating coins:", error);
         }
@@ -184,10 +194,21 @@ const GuessCard = ({ cards }) => {
     setShowFinishedPopup(false);
   };
 
-  const { isLoading, error, data } = useQuery(["coins"], () =>
-    makeRequest.get("/guesses/coins?userId=" + currentUser["user"].id).then((res) => {
-      return res.data;
-    })
+  const { isLoading, error, data, refetch } = useQuery(
+    ["coins"],
+    () =>
+      makeRequest
+        .get("/guesses/coins?userId=" + currentUser["user"].id)
+        .then((res) => {
+          return res.data;
+        }),
+    {
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
+    }
   );
 
   const [number, setNumber] = useState(50);

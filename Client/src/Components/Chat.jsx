@@ -25,8 +25,7 @@ const Chat = ({ u }) => {
         )
         .then((res) => res.data),
     {
-      staleTime: 0,
-      refetchInterval: 1000,
+      refetchOnMount: true
     }
   );
 

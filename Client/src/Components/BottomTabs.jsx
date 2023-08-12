@@ -121,6 +121,8 @@ const BottomTabs = () => {
         label: "Inbox Tab",
       });
 
+      queryClient.invalidateQueries("userlist");
+
       try {
         if ("serviceWorker" in navigator) {
           const registration = await navigator.serviceWorker.register(

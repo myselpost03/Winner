@@ -18,11 +18,16 @@ const CommentPage = () => {
 
   const [desc, setDesc] = useState("");
 
-  const { isLoading, error, data } = useQuery(
+  const { isLoading, error, data, refetch } = useQuery(
     ["comments", id],
     () => makeRequest.get("/comments?selpostId=" + id).then((res) => res.data),
     {
-      refetchOnMount: true,
+      enabled: id !== undefined,
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
     }
   );
 
@@ -49,6 +54,8 @@ const CommentPage = () => {
       e.preventDefault();
       mutation.mutate({ desc, selpostId: id });
       setDesc("");
+      refetch();
+      queryClient.invalidateQueries(["comments"]);
     } catch (err) {
       console.log("Error sending a comment", err);
     }

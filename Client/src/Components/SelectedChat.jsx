@@ -48,7 +48,7 @@ const SelectedChat = () => {
   );
 
   //! Get blocked users
-  const { data: blockedUsernames } = useQuery(
+  const { data: blockedUsernames, refetch } = useQuery(
     ["blockedUsernames"],
     () =>
       makeRequest
@@ -59,7 +59,11 @@ const SelectedChat = () => {
           return res.data;
         }),
     {
-      refetchOnMount: true,
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
     }
   );
 
@@ -190,6 +194,8 @@ const SelectedChat = () => {
       toast.success(t("BlockPopup.block"), {
         position: toast.POSITION.TOP_RIGHT,
       });
+      refetch();
+      queryClient.invalidateQueries(["blockedUsernames"]);
 
       mutation3.mutate(
         {
@@ -213,7 +219,7 @@ const SelectedChat = () => {
     if (e) {
       e.preventdefault();
     }
-
+    queryClient.invalidateQueries(["notifications"]);
     try {
       const messageData = {
         sender: currentUser["user"].username,

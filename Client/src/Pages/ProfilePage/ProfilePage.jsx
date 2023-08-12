@@ -22,7 +22,6 @@ import { LanguageContext } from "../../Context/languageContext";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
 import SearchBar from "../../Components/SearchBar";
-import RefreshFAB from "../../Components/RefreshFAB";
 import ReactGA from "react-ga";
 
 const ProfilePage = () => {
@@ -65,16 +64,11 @@ const ProfilePage = () => {
           return res.data;
         }),
     {
-      refetchOnMount: true,
-      cacheTime: 0,
-
-      onSettled: (data, error) => {
-        if (error) {
-          console.error("Error fetching data:", error);
-        } else {
-          refetch();
-        }
-      },
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000, 
+      cacheTime: 2592000000,
+      manual: true,
     }
   );
 
@@ -102,11 +96,14 @@ const ProfilePage = () => {
   const handleLanguageChange = (e) => {
     const selectedLanguage = e.target.value;
     changeLanguage(selectedLanguage);
+    queryClient.invalidateQueries(["languages"]);
 
     try {
       mutationForLanguage.mutate({
         language: selectedLanguage,
       });
+
+      refetch();
     } catch (error) {
       console.log("Error occurred while saving language preference:", error);
     }
@@ -134,19 +131,37 @@ const ProfilePage = () => {
   }, [logout, navigate]);
 
   //! Get user
-  const { isLoading, error, data } = useQuery(
+  const {
+    isLoading,
+    error,
+    data,
+    refetch: userRefetch,
+  } = useQuery(
     ["user"],
     () =>
       makeRequest.get("/users/find/" + userId).then((res) => {
         return res.data;
       }),
     {
-      refetchOnMount: true,
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000, 
+      cacheTime: 2592000000,
+      manual: true,
     }
   );
 
+  useEffect(() => {
+    userRefetch();
+    queryClient.invalidateQueries(["user"]);
+  }, [userId, userRefetch, queryClient]);
+
   //! Get supported user
-  const { isLoading: rIsLoading, data: relationshipData } = useQuery(
+  const {
+    isLoading: rIsLoading,
+    data: relationshipData,
+    refetch: supportedRefetch,
+  } = useQuery(
     ["relationship"],
     () =>
       makeRequest
@@ -154,9 +169,13 @@ const ProfilePage = () => {
         .then((res) => {
           return res.data;
         }),
-    {
-      refetchOnMount: true,
-    }
+        {
+          refetchOnMount: false,
+          refetchOnWindowFocus: false,
+          staleTime: 2592000000, 
+          cacheTime: 2592000000,
+          manual: true,
+        }
   );
 
   //! Unsupport user
@@ -184,19 +203,15 @@ const ProfilePage = () => {
       } else {
         mutation.mutate(false);
       }
+
+      supportedRefetch();
+      queryClient.invalidateQueries(["relationship"]);
     } catch (err) {
       console.log("Error occured supporting user", err);
     }
   };
 
-  const handleInvalidate = async () => {
-    await Promise.all([
-      queryClient.invalidateQueries(["languages"]),
-      queryClient.invalidateQueries(["user"]),
-      queryClient.invalidateQueries(["relationship"]),
-      queryClient.invalidateQueries(["supporters"]),
-    ]);
-  };
+ 
 
   //! Showing loading spinner
   if (isLoading || lIsLoading || sIsLoading) {
@@ -233,7 +248,7 @@ const ProfilePage = () => {
         <>
           <div className="mobile-profile-page">
             <BottomTabs userId={userId} />
-            <RefreshFAB handleClick={handleInvalidate} />
+           {/* <RefreshFAB handleClick={handleInvalidate} />*/}
             <div className="profile-cover">
               {rIsLoading ? (
                 "loading.."

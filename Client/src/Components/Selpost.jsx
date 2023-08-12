@@ -101,10 +101,17 @@ const Selpost = ({ selpost }) => {
   };
 
   //! Fetch fires
-  const { isLoading, data } = useQuery(["fires", selpost.id], () =>
+  const { isLoading, data, refetch } = useQuery(["fires", selpost.id], () =>
     makeRequest.get("/fires?selpostId=" + selpost.id).then((res) => {
       return res.data;
-    })
+    }),{
+      enabled: selpost.id !== undefined || NaN,
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
+    }
   );
 
   const queryClient = useQueryClient();
@@ -144,6 +151,9 @@ const Selpost = ({ selpost }) => {
         currentUser["user"].username.slice(1);
       const updatedNotificationCount = notificationCount + 1;
       setNotificationCount(updatedNotificationCount);
+      
+      refetch();
+      queryClient.invalidateQueries(["fires"]);
 
       if ("serviceWorker" in navigator) {
         const registration = await navigator.serviceWorker.register(

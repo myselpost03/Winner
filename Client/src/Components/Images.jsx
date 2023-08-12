@@ -1,5 +1,5 @@
-import React from "react";
-import { useQuery } from "@tanstack/react-query";
+import React, { useEffect } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { makeRequest } from "../axios";
 import Image from "./Image";
@@ -10,13 +10,34 @@ import "./Images.scss";
 const Images = ({ userId }) => {
   const { t } = useTranslation();
 
-  const { isLoading, error, data } = useQuery(
+  const queryClient = useQueryClient();
+
+  const { isLoading, error, data, refetch } = useQuery(
     ["selposts"],
-    () =>
-      makeRequest.get("/selposts?userId=" + userId).then((res) => {
-        return res.data;
-      })
+    () => {
+      if (userId !== undefined) {
+        return makeRequest.get("/selposts?userId=" + userId).then((res) => {
+          return res.data;
+        });
+      }
+      return Promise.resolve([]);
+    },
+    {
+      enabled: userId !== undefined,
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
+    }
   );
+
+  useEffect(() => {
+    if (userId !== undefined) {
+      refetch();
+      queryClient.invalidateQueries(["selposts"]);
+    }
+  }, [userId, refetch]);
 
   if (error) {
     return <div className="selposts">{t("Error.error")}</div>;

@@ -17,16 +17,23 @@ const MobileNavbar = () => {
   const queryClient = useQueryClient();
 
   //!Get Fire notification count
-  const { isLoading, error, data } = useQuery(
+  const { isLoading, error, data, refetch } = useQuery(
     ["fireNotifications"],
     () =>
       makeRequest
-        .get(`/fireNotifications?selpostUsername=${currentUser["user"].username}`)
+        .get(
+          `/fireNotifications?selpostUsername=${currentUser["user"].username}`
+        )
         .then((res) => {
           return res.data;
-        }),{
-          refetchOnMount: true,
-        }
+        }),
+    {
+      refetchOnMount: false,
+      refetchOnWindowFocus: false,
+      staleTime: 2592000000,
+      cacheTime: 2592000000,
+      manual: true,
+    }
   );
 
   //! Mutation for reseting the count
@@ -39,7 +46,7 @@ const MobileNavbar = () => {
     },
     {
       onSuccess: () => {
-        queryClient.invalidateQueries(["newFireCount"]);
+        queryClient.invalidateQueries(["fireNotifications"]);
       },
     }
   );
@@ -50,6 +57,8 @@ const MobileNavbar = () => {
       mutation.mutate({
         count: 0,
       });
+      refetch();
+      queryClient.invalidateQueries(["newFireCount"]);
     } catch (err) {
       console.log("Error occured resting the count in mobile navbar", err);
     }

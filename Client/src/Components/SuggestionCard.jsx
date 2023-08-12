@@ -8,10 +8,16 @@ import "./SuggestionCard.scss";
 const SuggestionCard = () => {
   const { currentUser } = useContext(AuthContext);
 
-  const { isLoading, error, data } = useQuery(["suggestions"], () =>
-    makeRequest.get("/suggestions").then((res) => {
-      return res.data;
-    })
+  const { isLoading, error, data } = useQuery(
+    ["suggestions"],
+    () =>
+      makeRequest.get("/suggestions").then((res) => {
+        return res.data;
+      }),
+    {
+      refetchOnMount: false,
+      refetchInterval: 3600000, // 1 hour in milliseconds
+    }
   );
 
   return (

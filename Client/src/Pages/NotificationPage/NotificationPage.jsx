@@ -21,16 +21,21 @@ const NotificationPage = () => {
   const { t } = useTranslation();
 
   //! Get fire notifications
-  const { isLoading, error, data } = useQuery(["fireNotifications"], () =>
-    makeRequest
-      .get(`/fireNotifications?selpostUsername=${currentUser["user"].username}`)
-      .then((res) => res.data)
-      .catch((error) => {
-        console.error("Error fetching notifications:", error);
-        throw error;
-      }),{
-        refetchOnMount: true,
-      }
+  const { isLoading, error, data } = useQuery(
+    ["fireNotifications"],
+    () =>
+      makeRequest
+        .get(
+          `/fireNotifications?selpostUsername=${currentUser["user"].username}`
+        )
+        .then((res) => res.data)
+        .catch((error) => {
+          console.error("Error fetching notifications:", error);
+          throw error;
+        }),
+    {
+      refetchOnMount: true,
+    }
   );
 
   //! Handle back navigation
