@@ -31,7 +31,7 @@ export const getUser = (req, res) => {
 export const updateUser = (req, res) => {
   try {
     const secretKey = process.env.SECRET_KEY;
-    const token = req.cookies.accessToken;
+    const token = req.headers.authorization?.split(" ")[1];
     if (!token) return res.status(401).json("Not logged in!");
 
     jwt.verify(token, secretKey, (err, userInfo) => {
@@ -50,7 +50,7 @@ export const updateUser = (req, res) => {
           req.body.education,
           req.body.profilePic,
           req.body.email,
-          userInfo.id,
+          req.body.id,
         ],
         (err, data) => {
           if (err) res.status(500).json(err);
@@ -60,7 +60,7 @@ export const updateUser = (req, res) => {
       );
     });
   } catch (err) {
-    //return res.status(500).json(err);
+    return res.status(500).json(err);
   }
 };
 
@@ -68,7 +68,7 @@ export const updateUser = (req, res) => {
 export const deleteUser = (req, res) => {
   try {
     const secretKey = process.env.SECRET_KEY;
-    const token = req.cookies.accessToken;
+    const token = req.headers.authorization?.split(" ")[1];
     if (!token) return res.status(401).json("Not logged in!");
 
     jwt.verify(token, secretKey, (err, userInfo) => {

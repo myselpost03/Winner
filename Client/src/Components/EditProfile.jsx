@@ -98,6 +98,7 @@ const EditProfile = ({ user }) => {
           },
         }
       );
+      
       return res.data.secure_url;
     } catch (err) {
       console.log(err);
